@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "empires:register/add_block"
+    "function": "empires:register/detector/building/place_block"
   }
 }

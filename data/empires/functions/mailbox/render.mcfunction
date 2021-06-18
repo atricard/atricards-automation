@@ -1,0 +1,3 @@
+execute unless block ~ ~ ~ chest run kill @s
+particle portal ~ ~ ~ 0.1 0.1 0.1 1 1 normal
+item replace block ~ ~ ~ container.0 with turtle_spawn_egg{display:{Name:'{"text":"Building Detector","color":"dark_green","italic":false}',Lore:['{"text":"Place down to start registering a building.","color":"white","italic":false}']},EntityTag:{id:"minecraft:area_effect_cloud",Duration:20,Tags:["em_spawnDetector"]}} 1

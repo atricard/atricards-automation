@@ -1,0 +1,2 @@
+summon area_effect_cloud ~ ~-1 ~ {CustomNameVisible:1b,Duration:-1,Age:-2147483648,WaitTime:-2147483648,Tags:["em_mailbox"],CustomName:'{"text":"Oracle Co. Mailbox","color":"#BEFF94"}'}
+playsound minecraft:block.enchantment_table.use block @a
