@@ -1,0 +1,2 @@
+give @p bat_spawn_egg{display:{Name:'{"text":"Farm Marker","color":"dark_red","italic":false}'},EntityTag:{id:"minecraft:armor_stand",Tags:["farm_marker"]}} 1
+give @p vindicator_spawn_egg{display:{Name:'{"text":"Pillager Citizen","color":"dark_red","italic":false}'},EntityTag:{id:"minecraft:pillager",CanPickUpLoot:0b,Tags:["citizen_farmer"],PatrolTarget:{X:0,Y:0,Z:0},HandItems:[{id:"minecraft:stone_hoe",Count:1b,tag:{Unbreakable:1b}},{}],HandDropChances:[0.000F,0.085F]}} 1
