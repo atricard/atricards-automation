@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:spyglass"
+            ],
+            "nbt": "{view_vitals:1b}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "empires:citizen/vitals/use_spyglass"
+    }
+  }
+  

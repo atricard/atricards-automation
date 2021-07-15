@@ -1,0 +1,2 @@
+execute if score @s ev_Food matches 0..10 run particle dust 0.322 0.439 0.341 1 ~ ~1 ~ 0.5 0.75 0.5 0.05 1 force
+execute if score @s ev_Fun matches 0..10 run particle dust 0.569 0.545 0.357 1 ~ ~1 ~ 0.5 0.75 0.5 0.05 1 force
