@@ -1,2 +1,2 @@
-# empires_reboot :)
--Fabian was here
+# empires_reboot
+RPG datapack for Minecraft
