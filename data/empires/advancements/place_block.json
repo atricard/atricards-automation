@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": {
+            "block": {
+              "tag": "empires:valid_building_block"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "empires:building/scanner/place_block/add_block"
+    }
+  }
+  

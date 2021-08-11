@@ -1,0 +1,1 @@
+give @s bat_spawn_egg{display:{Name:'{"text":"House Scanner","color":"blue","italic":false}',Lore:['{"text":"Requires 200 blocks to complete.","color":"white","italic":false}']},scanner:1b,EntityTag:{id:"minecraft:marker",Tags:["scanner_placer","house_prime"]}} 1

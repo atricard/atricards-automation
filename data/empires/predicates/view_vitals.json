@@ -15,8 +15,7 @@
           "empires:use_spyglass": true
         },
         "looking_at": {
-          "type": "minecraft:pillager",
-          "team": "citizen_friend"
+          "nbt": "{Tags:[\"citizen\"]}" 
         }
       }
     }
