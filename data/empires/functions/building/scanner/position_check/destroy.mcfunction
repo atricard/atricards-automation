@@ -1,4 +1,4 @@
-playsound entity.zombie.break_wooden_door block @a
-particle block copper_block ~ ~0.75 ~ 0.2 0.2 0.2 0.25 12 normal
-summon item ~ ~ ~ {Item:{id:"minecraft:sheep_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"House Scanner","italic":false}',Lore:['{"text":"150 blocks required.","color":"gray","italic":false}','{"text":"[Public Building]","color":"gold","italic":false}']},CustomModelData:80101,scanner:1b,EntityTag:{id:"minecraft:marker",Tags:["scanner_placer","house_prime"]}}}}
+playsound block.beacon.deactivate block @a
+particle dust 1.000 0.000 0.000 1 ~ ~ ~ 1 1 1 0 5 normal
+summon item ~ ~ ~ {PickupDelay:10,Motion:[0.0,0.2,0.0],Item:{id:"minecraft:sheep_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Magic Chalk","italic":false}'},CustomModelData:80101,scanner:1b,EntityTag:{id:"minecraft:marker",Tags:["scanner_placer"]}}}}
 kill @s
