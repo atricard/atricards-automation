@@ -1,2 +1,0 @@
-tag @s add talking_npc
-tellraw @s[tag=talking_npc] ["",{"text":"<","color":"white"},{"text":"NPC","color":"green"},"> Hello there.","\n",{"text":"(No further dialogue.)","underlined":true,"color":"red","clickEvent":{"action":"run_command","value":""}}]

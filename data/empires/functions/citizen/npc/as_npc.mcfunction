@@ -1,2 +1,0 @@
-execute as @p[predicate=empires:look_at_npc,predicate=!empires:look_at_npc_hired,tag=!talking_npc,scores={npc_talk_event=20..}] run function empires:citizen/npc/start_talk
-execute as @p[predicate=empires:look_at_npc,predicate=empires:look_at_npc_hired,tag=!talking_npc,scores={npc_talk_event=20..}] run function empires:citizen/npc/start_talk_hired

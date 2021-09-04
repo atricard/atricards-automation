@@ -1,0 +1,3 @@
+setblock ~ ~ ~ barrel{CustomName:'[{"text":"Bulletin Board"},{"translate":""},{"translate":"","color":"white"}]'} replace
+execute align xyz positioned ~0.5 ~ ~0.5 run summon villager ~ ~ ~ {Silent:1b,Invulnerable:1b,NoAI:1b,Willing:1b,Tags:["invis","terminal_click"],VillagerData:{profession:"minecraft:cartographer",type:"minecraft:plains"},Offers:{}}
+execute align xyz positioned ~0.5 ~0.125 ~0.5 run summon glow_item_frame ~ ~ ~ {Silent:1b,Facing:1b,Invulnerable:1b,Invisible:1b,Fixed:1b,Tags:["terminal"],Item:{id:"minecraft:sheep_spawn_egg",Count:1b,tag:{CustomModelData:70101}}} 

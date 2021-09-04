@@ -1,0 +1,15 @@
+{
+    "values":[
+        "stone",
+        "cobblestone",
+        "andesite",
+        "granite",
+        "diorite",
+        "polished_andesite",
+        "polished_granite",
+        "polished_diorite",
+        "#stone_bricks",
+        "stone_slab",
+        "smooth_stone_slab"
+    ]
+   }

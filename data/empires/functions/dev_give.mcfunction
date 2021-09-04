@@ -1,3 +1,0 @@
-give @s pillager_spawn_egg{display:{Name:'{"text":"Spawn Citizen","color":"red","italic":false}'},EntityTag:{id:"minecraft:area_effect_cloud",Tags:["spawn_citizen"]}} 1
-give @s pillager_spawn_egg{display:{Name:'{"text":"Spawn Citizen Hired Test","color":"red","italic":false}'},EntityTag:{id:"minecraft:area_effect_cloud",Tags:["spawn_citizen","spawn_citizen_hired"]}} 1
-give @s spyglass{display:{Name:'{"text":"Doctor\'s Spyglass","color":"gold","italic":false}'},view_vitals:1b,Enchantments:[{}]} 1
