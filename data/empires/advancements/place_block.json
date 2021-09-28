@@ -12,7 +12,7 @@
       }
     },
     "rewards": {
-      "function": "empires:building/scanner/place_block/add_block"
+      "function": "empires:sigil/place_block/add_block"
     }
   }
   

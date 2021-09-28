@@ -1,1 +1,0 @@
-execute as @e[type=wandering_trader] run function empires:trader/remove_potion
