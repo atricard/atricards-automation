@@ -38,12 +38,11 @@ particle happy_villager ~ ~ ~ 1 1 1 1 15
 kill @e[type=armor_stand,tag=sigil,tag=complete,distance=..12,sort=nearest,limit=1]
 scoreboard players add %built_count b_count_id 1
 scoreboard players operation @e[type=glow_item_frame,tag=bulletin,distance=..1,sort=nearest,limit=1] b_count_id = %built_count b_count_id
-execute if score @e[type=glow_item_frame,tag=bulletin,distance=..1,sort=nearest,limit=1] building_id matches 1 run summon wandering_trader ~ ~1 ~ {Tags:["init_citizen","citizen"],Offers:{}}
+execute as @e[type=glow_item_frame,tag=bulletin,distance=..1,sort=nearest,limit=1] run function empires:bulletin/tag_category
+execute as @e[type=glow_item_frame,tag=bulletin,tag=b_home,distance=..1,sort=nearest,limit=1] run summon wandering_trader ~ ~1 ~ {Tags:["init_citizen","citizen"],Offers:{}}
+execute as @e[type=wandering_trader,tag=init_citizen] run function empires:bulletin/villager_name
 scoreboard players operation @e[type=wandering_trader,tag=init_citizen] b_count_id = %built_count b_count_id
 scoreboard players operation @e[type=wandering_trader,tag=init_citizen] worker_id = %built_count b_count_id
-execute store result score @e[type=glow_item_frame,tag=bulletin,distance=..1,sort=nearest,limit=1] pos_x run data get block ~ ~ ~ posX
-execute store result score @e[type=glow_item_frame,tag=bulletin,distance=..1,sort=nearest,limit=1] pos_y run data get block ~ ~ ~ posY
-execute store result score @e[type=glow_item_frame,tag=bulletin,distance=..1,sort=nearest,limit=1] pos_z run data get block ~ ~ ~ posZ
 tag @e[type=wandering_trader,tag=init_citizen] remove init_citizen
-execute as @e[type=glow_item_frame,tag=bulletin,distance=..1,sort=nearest,limit=1] if score @s building_id matches 1 run data merge entity @s {Item:{id:"minecraft:sheep_spawn_egg",Count:1b,tag:{CustomModelData:70102}}}
+execute as @e[type=glow_item_frame,tag=bulletin,tag=b_home,distance=..1,sort=nearest,limit=1] run data merge entity @s {Item:{id:"minecraft:sheep_spawn_egg",Count:1b,tag:{CustomModelData:70102}}}
 kill @s
