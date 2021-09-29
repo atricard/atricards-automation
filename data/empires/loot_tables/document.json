@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{stamp:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Citizen Document",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "nbt": "Item.tag.display.Lore[0]",
+                  "entity": "@e[type=glow_item_frame,tag=bulletin,limit=1,sort=nearest]",
+                  "interpret": true,
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Throw onto a jobsite to assign the citizen.",
+                  "color": "light_gray",
+                  "italic": true
+                }
+              ],
+              "replace": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

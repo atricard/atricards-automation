@@ -1,4 +1,3 @@
-kill @e[type=area_effect_cloud,tag=display_stat,distance=..5]
 #1      House - Bed
 #2      Farmhouse - Wooden Hoe
 #3      Mine - Wooden Pickaxe
@@ -25,4 +24,4 @@ kill @e[type=area_effect_cloud,tag=display_stat,distance=..5]
 #24      Wind Mage Tower - End Crystal + Ancient Sail
 #25      Warehouse - Chest
 #
-execute if entity @a[distance=..7] run summon minecraft:area_effect_cloud ~ ~0.625 ~ {CustomName:'{"text":"Bulletin Board","color":"white"}',CustomNameVisible:1b,Duration:3,Tags:["display_stat"]}
+summon minecraft:area_effect_cloud ~ ~0.625 ~ {CustomName:'{"text":"Bulletin Board","color":"white"}',CustomNameVisible:1b,Duration:2,Tags:["display_stat"]}

@@ -4,7 +4,7 @@ execute if score @s building_id matches 3 run data merge entity @s {CustomName:'
 execute if score @s building_id matches 4 run data merge entity @s {CustomName:'{"text":"Forester"}'} 
 execute if score @s building_id matches 5 run data merge entity @s {CustomName:'{"text":"Fishery"}'} 
 execute if score @s building_id matches 6 run data merge entity @s {CustomName:'{"text":"Temple"}'} 
-execute if score @s building_id matches 7 run data merge entity @s {CustomName:'{"text":"Guard Post "}'} 
+execute if score @s building_id matches 7 run data merge entity @s {CustomName:'{"text":"Guard Post"}'} 
 execute if score @s building_id matches 8 run data merge entity @s {CustomName:'{"text":"Monument"}'} 
 execute if score @s building_id matches 9 run data merge entity @s {CustomName:'{"text":"Windmill"}'} 
 execute if score @s building_id matches 10 run data merge entity @s {CustomName:'{"text":"Apiary"}'} 
