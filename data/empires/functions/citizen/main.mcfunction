@@ -1,2 +1,2 @@
-function empires:citizen/remove_potion
+function empires:citizen/maintain
 function empires:citizen/search

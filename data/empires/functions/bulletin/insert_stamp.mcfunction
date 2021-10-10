@@ -1,2 +1,0 @@
-execute unless block ~ ~ ~ minecraft:barrel{Items:[{Slot:0b}]} run loot replace block ~ ~ ~ container.0 loot empires:document
-execute store result block ~ ~ ~ Items[0].tag.built_id int 1 run scoreboard players get @s b_count_id

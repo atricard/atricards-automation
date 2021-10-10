@@ -1,8 +1,15 @@
 {
-    "condition": "minecraft:time_check",
-    "value": {
-      "min": 10000,
-      "max": 11999
-    }
+  "condition": "minecraft:value_check",
+  "value": {
+    "type": "minecraft:score",
+    "target": {
+      "type": "minecraft:fixed",
+      "name": "%daytime"
+    },
+    "score": "daytime_int"
+  },
+  "range": {
+    "min": 10000,
+    "max": 11999
   }
-  
+}

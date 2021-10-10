@@ -27,7 +27,7 @@
                   "nbt": "Item.tag.display.Lore[0]",
                   "entity": "@e[type=glow_item_frame,tag=bulletin,limit=1,sort=nearest]",
                   "interpret": true,
-                  "color": "white",
+                  "color": "yellow",
                   "bold": false,
                   "italic": false
                 }
@@ -38,9 +38,9 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "Throw onto a jobsite to assign the citizen.",
-                  "color": "light_gray",
-                  "italic": true
+                  "text": "Throw onto a jobsite to assign this citizen.",
+                  "color": "gray",
+                  "italic": false
                 }
               ],
               "replace": false

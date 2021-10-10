@@ -1,0 +1,300 @@
+{
+    "pools": [
+      {
+        "rolls": 8,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:birch_log",
+                "conditions": [
+                  {
+                    "condition": "minecraft:alternative",
+                    "terms": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:birch_forest_hills"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:birch_forest"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:tall_birch_forest"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:tall_birch_hills"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:oak_log",
+                "conditions": [
+                  {
+                    "condition": "minecraft:alternative",
+                    "terms": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:forest"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:wooded_hills"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:flower_forest"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:swamp"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:swamp_hills"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:spruce_log",
+                "conditions": [
+                  {
+                    "condition": "minecraft:alternative",
+                    "terms": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:taiga"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:taiga_hills"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:taiga_mountains"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:giant_tree_taiga"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:giant_tree_taiga_hills"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:giant_spruce_taiga"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:giant_spruce_taiga_hills"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:snowy_taiga"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:snowy_taiga_hills"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:snowy_taiga_mountains"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:jungle_log",
+                "conditions": [
+                  {
+                    "condition": "minecraft:alternative",
+                    "terms": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:jungle"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:jungle_hills"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:modified_jungle"
+                        }
+                      },                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:jungle_edge"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:modified_jungle_edge"
+                        }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:bamboo_jungle"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:bamboo_jungle_hills"
+                      }
+                }
+             ]
+             }
+            ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:acacia_log",
+              "conditions": [
+                {
+                  "condition": "minecraft:alternative",
+                  "terms": [
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:savanna"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:savanna_plateau"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:shattered_savanna"
+                      }
+                    },                      {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:shattered_savanna_plateau"
+                      }
+              }
+           ]
+           }
+          ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:dark_oak_log",
+            "conditions": [
+              {
+                "condition": "minecraft:alternative",
+                "terms": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biome": "minecraft:dark_forest"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biome": "minecraft:dark_forest_hills"
+                    }
+                }
+                ]
+                }
+                ]
+             },
+             {
+               "type": "minecraft:item",
+               "name": "minecraft:crimson_stem",
+               "conditions": [
+                 {
+                   "condition": "minecraft:alternative",
+                   "terms": [
+                     {
+                       "condition": "minecraft:location_check",
+                       "predicate": {
+                         "biome": "minecraft:crimson_forest"
+                       }
+                     }
+                   ]
+                   }
+                   ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:warped_stem",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:alternative",
+                      "terms": [
+                        {
+                          "condition": "minecraft:location_check",
+                          "predicate": {
+                            "biome": "minecraft:warped_forest"
+                          }
+                        }
+                      ]
+                      }
+                      ]
+                   }
+        ]
+      }
+    ]
+  }
+  

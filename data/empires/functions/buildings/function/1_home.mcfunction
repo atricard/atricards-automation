@@ -1,0 +1,1 @@
+scoreboard players set @e[type=wandering_trader,tag=citizen,distance=..5] value_housed 2

@@ -1,0 +1,2 @@
+execute align xyz positioned ~0.5 ~0 ~0.5 run summon glow_item_frame ~ ~ ~ {Tags:["soul_table"],Silent:1b,Facing:1b,Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:sheep_spawn_egg",Count:1b,tag:{CustomModelData:70104}}}
+setblock ~ ~ ~ barrel{CustomName:'[{"text":"Soul Catalyst"},{"translate":"\\uF801"},{"translate":"\\uEff2","color":"white","italic":false}]'} replace
