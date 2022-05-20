@@ -1,0 +1,3 @@
+execute if score @s build_egg matches 1.. run give @s sheep_spawn_egg{display:{Name:'{"text":"Build Egg","color":"aqua","italic":false}',Lore:['{"text":"Requires: 125 blocks","color":"white","italic":false}','[{"text":"Rewards: +5","color":"white","italic":false},{"text":"⛂","color":"gold","italic":false},{"text":" & +1 ","color":"white","italic":false},{"text":"Builder\'s XP","color":"green","italic":false}]']},CustomModelData:70101,Enchantments:[{}],EntityTag:{id:"minecraft:marker",Tags:["detector_init","building_detector","free"],CustomName:'{"text":"Build Egg","color":"aqua"}'}} 1
+#End function
+scoreboard players reset @s build_egg

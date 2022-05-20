@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 90,
+            "quality": 0,
+            "name": "minecraft:gravel"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:flint"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "quality": 1,
+            "name": "minecraft:iron_nugget",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:wooden_shovel"
+                  ],
+                  "nbt": "{pan:1b}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

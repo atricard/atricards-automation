@@ -1,1 +1,0 @@
-scoreboard players set @e[type=wandering_trader,tag=citizen,distance=..5,scores={value_happy=..9}] value_happy 10

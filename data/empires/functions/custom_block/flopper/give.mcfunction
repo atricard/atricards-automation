@@ -1,0 +1,1 @@
+give @s axolotl_spawn_egg{display:{Name:'{"text":"Flopper","italic":false}'},CustomModelData:2300001,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Tags:["flopper","empires_machine","machine_init"]}} 1

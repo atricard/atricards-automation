@@ -1,3 +1,0 @@
-execute at @e[type=glow_item_frame,tag=bulletin] store result score @s job_pos_x run scoreboard players get @e[type=glow_item_frame,tag=bulletin,limit=1,sort=nearest,predicate=empires:search_predicate_job] pos_x
-execute at @e[type=glow_item_frame,tag=bulletin] store result score @s job_pos_y run scoreboard players get @e[type=glow_item_frame,tag=bulletin,limit=1,sort=nearest,predicate=empires:search_predicate_job] pos_y
-execute at @e[type=glow_item_frame,tag=bulletin] store result score @s job_pos_z run scoreboard players get @e[type=glow_item_frame,tag=bulletin,limit=1,sort=nearest,predicate=empires:search_predicate_job] pos_z

@@ -1,1 +1,0 @@
-execute as @e[type=wandering_trader,tag=citizen] at @s run function empires:citizen/time/end_of_day

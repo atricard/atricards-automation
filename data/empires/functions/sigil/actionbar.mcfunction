@@ -1,5 +1,0 @@
-execute as @s[tag=!has_id] run title @a[distance=..12] actionbar ["",{"text":"[","color":"gray"},{"selector":"@s"},{"text":" Progress: ","color":"gray"},{"score":{"name":"@s","objective":"block_count"},"color":"red"},{"text":"/","color":"gray"},{"score":{"name":"@s","objective":"max_block_count"},"color":"red"},{"text":"]","color":"gray"},{"text":" (Needs an item catalyst.)","color":"red"}]
-execute as @s[tag=has_id] run title @a[distance=13..14] actionbar [""]
-execute as @s[tag=has_id] run title @a[distance=..12] actionbar ["",{"text":"[","color":"gray"},{"selector":"@s","color":"green"},{"text":" Progress: ","color":"gray"},{"score":{"name":"@s","objective":"block_count"},"color":"green"},{"text":"/","color":"gray"},{"score":{"name":"@s","objective":"max_block_count"},"color":"green"},{"text":"]","color":"gray"}]
-execute if score @s[tag=has_id] block_count >= @s[tag=has_id] max_block_count run function empires:sigil/complete
-#

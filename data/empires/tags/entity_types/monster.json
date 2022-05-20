@@ -1,0 +1,36 @@
+{
+    "values":[
+        "minecraft:drowned",
+        "minecraft:husk",
+        "minecraft:phantom",
+        "minecraft:skeleton",
+        "minecraft:stray",
+        "minecraft:wither_skeleton",
+        "minecraft:wither",
+        "minecraft:zoglin",
+        "minecraft:zombie_villager",
+        "minecraft:zombie",
+        "minecraft:zombified_piglin",
+        "minecraft:blaze",
+        "minecraft:creeper",
+        "minecraft:elder_guardian",
+        "minecraft:endermite",
+        "minecraft:evoker",
+        "minecraft:ghast",
+        "minecraft:guardian",
+        "minecraft:hoglin",
+        "minecraft:magma_cube",
+        "minecraft:piglin",
+        "minecraft:spider",
+        "minecraft:piglin_brute",
+        "minecraft:pillager",
+        "minecraft:ravager",
+        "minecraft:shulker",
+        "minecraft:silverfish",
+        "minecraft:slime",
+        "minecraft:vex",
+        "minecraft:vindicator",
+        "minecraft:witch"
+    ]
+   }
+   

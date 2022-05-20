@@ -1,6 +1,5 @@
 {
   "values":[
-    "empires:init",
-    "mythcraft:init"
-  ]
+    "empires:init"
+    ]
 }

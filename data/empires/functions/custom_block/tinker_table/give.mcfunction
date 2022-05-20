@@ -1,0 +1,1 @@
+give @s axolotl_spawn_egg{display:{Name:'{"text":"Tinker Table","italic":false}'},CustomModelData:2300000,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Tags:["tinker_table","empires_machine","machine_init"]}} 1
