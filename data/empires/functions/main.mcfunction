@@ -33,6 +33,7 @@ execute as @a[scores={warp=1..}] run function empires:warps/teleport/check_score
 #Machines
 execute as @e[type=area_effect_cloud,tag=empires_machine,tag=machine_init] at @s run function empires:custom_block/place
 execute as @e[type=marker,tag=fluid] at @s run function empires:custom_block/flopper/fluid/all_flow
+execute as @e[type=marker,tag=extract_fluid] at @s run function empires:custom_block/extractor/fluid/extract
 execute as @e[type=glow_item_frame,tag=custom_block] at @s run function empires:custom_block/main
 #Custom Mob
 execute as @e[type=armor_stand,tag=firefly_cloud] at @s run function empires:custom_mob/firefly

@@ -33,3 +33,4 @@ scoreboard objectives add pipe_rotation dummy
 scoreboard objectives add spray_release dummy
 scoreboard objectives add spray_scan dummy
 function empires:custom_block/conveyor/timer
+execute as @e[type=glow_item_frame,tag=extractor_block] at @s run schedule function empires:custom_block/extractor/timer 1s replace
