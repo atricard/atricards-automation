@@ -49,4 +49,4 @@ execute if block ~ ~ ~ wheat[age=2] run setblock ~ ~ ~ wheat[age=3]
 execute if block ~ ~ ~ wheat[age=1] run setblock ~ ~ ~ wheat[age=2]
 execute if block ~ ~ ~ wheat[age=0] run setblock ~ ~ ~ wheat[age=1]
 #
-execute unless block ~ ~ ~ air run particle happy_villager ~ ~ ~ 0.25 0.25 0.25 1 4
+execute unless block ~ ~ ~ #empires:fluid run particle happy_villager ~ ~ ~ 0.25 0.25 0.25 1 4
