@@ -3,6 +3,6 @@ execute unless block ~ ~ ~ air run kill @s
 execute if block ~ ~ ~ air run tag @s[tag=machine_init] add valid_machine_place
 execute as @s[tag=machine_init,tag=valid_machine_place] run playsound block.copper.place block @a
 execute as @s[tag=machine_init,tag=valid_machine_place] run setblock ~ ~ ~ copper_block
-execute as @s[tag=machine_init,tag=valid_machine_place] run summon glow_item_frame ~ ~ ~ {CustomNameVisible:0b,Facing:0b,ItemRotation:0b,Invulnerable:1b,Invisible:1b,Fixed:1b,Tags:["flopper_block","custom_block"],Item:{id:"minecraft:structure_void",Count:1b,tag:{CustomModelData:2300001}}}
+execute as @s[tag=machine_init,tag=valid_machine_place] run summon glow_item_frame ~ ~ ~ {CustomNameVisible:0b,Facing:0b,ItemRotation:0b,Invulnerable:1b,Invisible:1b,Fixed:1b,Tags:["flopper_block","fluid_block","custom_block"],Item:{id:"minecraft:structure_void",Count:1b,tag:{CustomModelData:2300001}}}
 #end
 kill @s

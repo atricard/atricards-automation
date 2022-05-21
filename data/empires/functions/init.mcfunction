@@ -30,4 +30,6 @@ scoreboard objectives add crop_scan dummy
 scoreboard objectives add crop_scan_timer dummy
 scoreboard objectives add nest_scan dummy
 scoreboard objectives add pipe_rotation dummy
+scoreboard objectives add spray_release dummy
+scoreboard objectives add spray_scan dummy
 function empires:custom_block/conveyor/timer
