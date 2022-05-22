@@ -1,0 +1,3 @@
+execute positioned ~ ~0.5 ~ run scoreboard players remove @e[type=minecraft:glow_item_frame,tag=tank_block,distance=..0.6,limit=1,sort=nearest] stored_lava 1
+execute positioned ~ ~-1.5 ~ as @e[type=minecraft:item,nbt={Item:{id:"minecraft:bucket",Count:1b}},distance=..0.6,limit=1,sort=nearest] run data merge entity @s {Item:{id:"minecraft:lava_bucket",Count:1b}}
+playsound item.bucket.empty_lava block @a

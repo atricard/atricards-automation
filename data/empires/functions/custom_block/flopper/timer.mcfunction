@@ -1,0 +1,5 @@
+execute as @e[type=glow_item_frame,tag=flopper_block] at @s positioned ^ ^ ^-0.5 if block ~ ~ ~ water[level=0] run function empires:custom_block/flopper/markers/water
+execute as @e[type=glow_item_frame,tag=flopper_block] at @s positioned ^ ^ ^-0.5 if block ~ ~ ~ lava[level=0] run function empires:custom_block/flopper/markers/lava
+execute as @e[type=glow_item_frame,tag=flopper_block] at @s positioned ^ ^ ^-0.5 if entity @e[type=glow_item_frame,tag=tank_block,distance=..0.5,sort=nearest,limit=1,scores={stored_water=1..}] run function empires:custom_block/flopper/markers/water_tank
+execute as @e[type=glow_item_frame,tag=flopper_block] at @s positioned ^ ^ ^-0.5 if entity @e[type=glow_item_frame,tag=tank_block,distance=..0.5,sort=nearest,limit=1,scores={stored_lava=1..}] run function empires:custom_block/flopper/markers/lava_tank
+schedule function empires:custom_block/flopper/timer 1s replace

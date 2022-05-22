@@ -1,5 +1,5 @@
 #Basic Gamerules
-#gamerule sendCommandFeedback false
+gamerule sendCommandFeedback false
 #Building
 scoreboard objectives add block_count dummy
 scoreboard objectives add max_block_count dummy
@@ -23,6 +23,8 @@ scoreboard objectives add warp trigger
 scoreboard objectives add warp_egg trigger
 scoreboard objectives add warp_count dummy
 #Custom
+scoreboard objectives add piston_data dummy
+scoreboard objectives add piston_kill dummy
 scoreboard objectives add match dummy
 scoreboard objectives add hit_mob minecraft.custom:damage_dealt
 scoreboard objectives add crop_strider_timer dummy
@@ -32,5 +34,8 @@ scoreboard objectives add nest_scan dummy
 scoreboard objectives add pipe_rotation dummy
 scoreboard objectives add spray_release dummy
 scoreboard objectives add spray_scan dummy
+scoreboard objectives add stored_water dummy
+scoreboard objectives add stored_lava dummy
 function empires:custom_block/conveyor/timer
-execute as @e[type=glow_item_frame,tag=extractor_block] at @s run schedule function empires:custom_block/extractor/timer 1s replace
+function empires:custom_block/extractor/timer
+function empires:custom_block/flopper/timer

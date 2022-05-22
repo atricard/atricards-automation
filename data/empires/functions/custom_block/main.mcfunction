@@ -5,4 +5,6 @@ execute as @s[tag=tinker_table_block] run function empires:custom_block/tinker_t
 execute as @s[tag=flopper_block] run function empires:custom_block/flopper/main
 execute as @s[tag=sprinkler_block] run function empires:custom_block/sprinkler/main
 execute as @s[tag=extractor_block] run function empires:custom_block/extractor/main
+execute as @s[tag=tank_block] run function empires:custom_block/tank/main
+execute as @s[tag=spout_block] run function empires:custom_block/spout/main
 execute as @s[tag=gift_block] run function empires:custom_block/storage/main

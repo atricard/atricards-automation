@@ -15,6 +15,9 @@ execute as @s[tag=fluid_lava] if entity @e[type=glow_item_frame,tag=flopper_bloc
 #drain
 execute as @s[tag=fluid_water] if block ~ ~ ~ #empires:fluid run function empires:custom_block/flopper/fluid/water_drain
 execute as @s[tag=fluid_lava] if block ~ ~ ~ #empires:fluid run function empires:custom_block/flopper/fluid/lava_drain
+#FLUID TANK
+execute as @s[tag=fluid_water] if entity @e[type=glow_item_frame,tag=tank_block,distance=..0.5] run function empires:custom_block/flopper/fluid/water_store
+execute as @s[tag=fluid_lava] if entity @e[type=glow_item_frame,tag=tank_block,distance=..0.5] run function empires:custom_block/flopper/fluid/lava_store
 #backflow
 execute if entity @e[type=glow_item_frame,tag=flopper_block,distance=..0.5,sort=nearest,limit=1,scores={pipe_rotation=0}] rotated 0 90 positioned ^ ^ ^1 if entity @e[type=glow_item_frame,tag=flopper_block,distance=..0.5,sort=nearest,limit=1,scores={pipe_rotation=1}] run function empires:custom_block/flopper/fluid/burst
 execute if entity @e[type=glow_item_frame,tag=flopper_block,distance=..0.5,sort=nearest,limit=1,scores={pipe_rotation=1}] rotated 0 -90 positioned ^ ^ ^1 if entity @e[type=glow_item_frame,tag=flopper_block,distance=..0.5,sort=nearest,limit=1,scores={pipe_rotation=0}] run function empires:custom_block/flopper/fluid/burst
