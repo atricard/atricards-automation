@@ -1,1 +1,1 @@
-give @s axolotl_spawn_egg{display:{Name:'{"text":"Strider Nest","italic":false}'},CustomModelData:2100004,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Tags:["nest","empires_machine","machine_init"]}} 1
+give @s axolotl_spawn_egg{display:{Name:'{"text":"Strider Nest","italic":false}'},CustomModelData:2100004,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Radius:0f,Age:1,Tags:["nest","empires_machine","machine_init"]}} 1

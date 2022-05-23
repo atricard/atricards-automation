@@ -1,4 +1,4 @@
-execute unless block ~ ~ ~ #empires:fluid run summon item ~ ~ ~ {Motion:[0.0,0.15,0.0],Item:{id:"axolotl_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Fluid Spout","italic":false}'},CustomModelData:2600000,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Tags:["spout","empires_machine","machine_init"]}}}}
+execute unless block ~ ~ ~ #empires:fluid run summon item ~ ~ ~ {Motion:[0.0,0.15,0.0],Item:{id:"axolotl_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Fluid Spout","italic":false}'},CustomModelData:2600000,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Radius:0f,Age:1,Tags:["spout","empires_machine","machine_init"]}}}}
 execute unless block ~ ~ ~ #empires:fluid run kill @s
 execute if block ~ ~ ~ #empires:fluid run tag @s[tag=machine_init] add valid_machine_place
 execute as @s[tag=machine_init,tag=valid_machine_place] run playsound block.copper.place block @a

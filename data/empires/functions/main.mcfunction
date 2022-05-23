@@ -31,10 +31,15 @@ execute as @e[type=marker,tag=warp,tag=warp_init] at @s run function empires:war
 execute as @e[type=marker,tag=warp,tag=!warp_init] at @s run function empires:warps/main
 execute as @a[scores={warp=1..}] run function empires:warps/teleport/check_score
 #Machines
+execute as @e[type=item,nbt={Item:{id:"minecraft:copper_ingot",Count:1b}}] at @s if block ~ ~-0.5 ~ crafting_table if block ~ ~0.5 ~ piston_head positioned ~ ~-0.5 ~ run function empires:custom_block/tinker_table/spawn
 execute as @e[type=area_effect_cloud,tag=empires_machine,tag=machine_init] at @s run function empires:custom_block/place
 execute as @e[type=marker,tag=fluid] at @s run function empires:custom_block/flopper/fluid/all_flow
 execute as @e[type=marker,tag=extract_fluid] at @s run function empires:custom_block/extractor/fluid/extract
 execute as @e[type=glow_item_frame,tag=custom_block] at @s run function empires:custom_block/main
+#crafting
+clear @a structure_void{gui:1b}
+clear @a axolotl_spawn_egg{gui:1b}
+kill @e[type=item,nbt={Item:{tag:{gui:1b}}}]
 #Custom Mob
 execute as @e[type=armor_stand,tag=firefly_cloud] at @s run function empires:custom_mob/firefly
 execute as @e[type=strider,tag=!crop_strider,predicate=empires:in_overworld] at @s run function empires:custom_mob/strider/replace

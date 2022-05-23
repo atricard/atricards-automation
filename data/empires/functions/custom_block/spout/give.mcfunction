@@ -1,1 +1,1 @@
-give @s axolotl_spawn_egg{display:{Name:'{"text":"Fluid Spout","italic":false}'},CustomModelData:2600000,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Tags:["spout","empires_machine","machine_init"]}}
+give @s axolotl_spawn_egg{display:{Name:'{"text":"Fluid Spout","italic":false}'},CustomModelData:2600000,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Radius:0f,Age:1,Tags:["spout","empires_machine","machine_init"]}}

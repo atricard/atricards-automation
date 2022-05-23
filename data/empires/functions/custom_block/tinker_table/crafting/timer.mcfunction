@@ -1,0 +1,3 @@
+execute as @e[type=glow_item_frame,tag=tinker_table_block] if score @s tt_fuel_time matches 1.. if score @s tt_fuel_count matches 1.. if score @s tt_copper_count matches 1.. if score @s tt_cook_time matches 0.. run scoreboard players add @s tt_cook_time 1
+execute as @e[type=glow_item_frame,tag=tinker_table_block] if score @s tt_fuel_time matches 1.. run scoreboard players remove @s tt_fuel_time 1
+schedule function empires:custom_block/tinker_table/crafting/timer 15t replace
