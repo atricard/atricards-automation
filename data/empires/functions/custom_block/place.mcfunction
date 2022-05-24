@@ -1,3 +1,6 @@
+execute as @s[tag=clam_spawn] run function empires:custom_mob/clam/spawn
+execute as @s[tag=clam] run function empires:custom_block/clam/place
+execute as @s[tag=clam_chest] run function empires:custom_block/clam_chest/place
 execute as @s[tag=conveyor] run function empires:custom_block/conveyor/place
 execute as @s[tag=tube] run function empires:custom_block/tube/place
 execute as @s[tag=nest] run function empires:custom_block/nest/place

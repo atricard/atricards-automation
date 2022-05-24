@@ -3,6 +3,6 @@ execute unless block ~ ~ ~ #empires:fluid run kill @s
 execute if block ~ ~ ~ #empires:fluid run tag @s[tag=machine_init] add valid_machine_place
 execute as @s[tag=machine_init,tag=valid_machine_place] run playsound block.grass.place block @a
 execute as @s[tag=machine_init,tag=valid_machine_place] run setblock ~ ~ ~ warped_roots
-execute as @s[tag=machine_init,tag=valid_machine_place] run summon glow_item_frame ~ ~ ~ {CustomNameVisible:0b,Facing:1b,ItemRotation:0b,Invulnerable:1b,Invisible:1b,Fixed:1b,Tags:["nest_block","custom_block"],Item:{id:"minecraft:structure_void",Count:1b,tag:{CustomModelData:2200004}}}
+execute as @s[tag=machine_init,tag=valid_machine_place] run summon glow_item_frame ~ ~ ~ {CustomNameVisible:0b,Facing:1b,ItemRotation:0b,Invulnerable:1b,Invisible:1b,Fixed:1b,Silent:1b,Tags:["nest_block","custom_block"],Item:{id:"minecraft:structure_void",Count:1b,tag:{CustomModelData:2200004}}}
 #end
 kill @s

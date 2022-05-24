@@ -3,7 +3,7 @@ execute unless block ~ ~ ~ #empires:fluid run kill @s
 execute if block ~ ~ ~ #empires:fluid run tag @s add valid_machine_place
 execute as @s[tag=machine_init,tag=valid_machine_place] run playsound block.anvil.place block @a ~ ~ ~ 1 1.22 0.6
 execute as @s[tag=machine_init,tag=valid_machine_place] run setblock ~ ~ ~ barrel[facing=down]{CustomName:'[{"text":"Tinker Table"},{"translate":"space.-70","font":"space:default"},{"translate":"\\uE019","font":"space:default","color":"white"}]'} replace
-execute as @s[tag=machine_init,tag=valid_machine_place] run summon glow_item_frame ~ ~ ~ {CustomNameVisible:0b,Facing:1b,ItemRotation:0b,Invulnerable:1b,Invisible:1b,Fixed:1b,Tags:["tinker_table_block","custom_block"],Item:{id:"minecraft:structure_void",Count:1b,tag:{CustomModelData:2300000}}}
+execute as @s[tag=machine_init,tag=valid_machine_place] run summon glow_item_frame ~ ~ ~ {CustomNameVisible:0b,Facing:1b,ItemRotation:0b,Invulnerable:1b,Invisible:1b,Fixed:1b,Silent:1b,Tags:["tinker_table_block","custom_block"],Item:{id:"minecraft:structure_void",Count:1b,tag:{CustomModelData:2300000}}}
 #etc
 item replace block ~ ~ ~ container.2 with axolotl_spawn_egg{display:{Name:'{"text":"Conveyor Block","italic":false}',Lore:['{"text":"7 Copper","color":"#FF9100","italic":false}']},CustomModelData:2100001,gui:1b} 1
 item replace block ~ ~ ~ container.3 with axolotl_spawn_egg{display:{Name:'{"text":"Vertical Sorter","italic":false}',Lore:['{"text":"7 Copper","color":"#FF9100","italic":false}']},CustomModelData:2100003,gui:1b} 1
