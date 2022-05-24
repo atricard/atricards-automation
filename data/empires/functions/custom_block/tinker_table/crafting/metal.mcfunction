@@ -1,1 +1,1 @@
-execute store result score @s tt_copper_count run data get block ~ ~ ~ Items[{id:"minecraft:copper_block",Slot:0b}].Count 1
+execute store result score @s tt_copper_count run data get block ~ ~ ~ Items[{id:"minecraft:copper_ingot",Slot:0b}].Count 1

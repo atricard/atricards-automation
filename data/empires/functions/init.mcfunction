@@ -38,7 +38,7 @@ scoreboard objectives add stored_water dummy
 scoreboard objectives add stored_lava dummy
 #Crafting
 scoreboard objectives add tt_cook_time dummy
-scoreboard objectives add tt_fuel_count dummy
+scoreboard objectives add tt_redstone_count dummy
 scoreboard objectives add tt_fuel_time dummy
 scoreboard objectives add tt_fuel_progress dummy
 scoreboard objectives add tt_fuel_max dummy

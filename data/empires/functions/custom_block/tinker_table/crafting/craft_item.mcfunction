@@ -1,4 +1,5 @@
 execute store result block ~ ~ ~ Items[{Slot:0b}].Count byte 0.99 run data get block ~ ~ ~ Items[{Slot:0b}].Count
+execute store result block ~ ~ ~ Items[{Slot:18b}].Count byte 0.99 run data get block ~ ~ ~ Items[{Slot:18b}].Count
 execute if score @s tt_recipe_id matches 1 run item replace block ~ ~ ~ container.16 with axolotl_spawn_egg{display:{Name:'{"text":"Conveyor Block","italic":false}'},CustomModelData:2100001,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Radius:0f,Age:1,Tags:["conveyor","empires_machine","machine_init"]}} 1
 execute if score @s tt_recipe_id matches 2 run item replace block ~ ~ ~ container.16 with axolotl_spawn_egg{display:{Name:'{"text":"Vertical Sorter","italic":false}'},CustomModelData:2100003,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Radius:0f,Age:1,Tags:["tube","empires_machine","machine_init"]}} 1
 execute if score @s tt_recipe_id matches 3 run item replace block ~ ~ ~ container.16 with axolotl_spawn_egg{display:{Name:'{"text":"Flopper","italic":false}'},CustomModelData:2300001,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Radius:0f,Age:1,Tags:["flopper","empires_machine","machine_init"]}} 1
