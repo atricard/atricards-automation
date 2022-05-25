@@ -1,3 +1,4 @@
+execute as @s[tag=companion_cube_block] run function empires:custom_block/companion_cube/drop
 execute as @s[tag=conveyor_block] run function empires:custom_block/conveyor/drop
 execute as @s[tag=tube_block] run function empires:custom_block/tube/drop
 execute as @s[tag=tinker_table_block] run function empires:custom_block/tinker_table/drop

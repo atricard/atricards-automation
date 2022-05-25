@@ -1,3 +1,4 @@
+execute as @s[tag=companion_cube] run function empires:custom_block/companion_cube/place
 execute as @s[tag=clam_spawn] run function empires:custom_mob/clam/spawn
 execute as @s[tag=clam] run function empires:custom_block/clam/place
 execute as @s[tag=clam_chest] run function empires:custom_block/clam_chest/place

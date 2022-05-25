@@ -36,6 +36,9 @@ execute as @e[type=marker,tag=fluid] at @s run function empires:custom_block/flo
 execute as @e[type=marker,tag=extract_fluid] at @s run function empires:custom_block/extractor/fluid/extract
 execute as @e[type=glow_item_frame,tag=custom_block] at @s run function empires:custom_block/main
 #crafting
+gamemode adventure @a[gamemode=survival,nbt={Inventory:[{Slot:-106b,id:"minecraft:structure_void"}]}]
+gamemode adventure @a[gamemode=survival,nbt={SelectedItem:{id:"minecraft:structure_void"}}]
+gamemode survival @a[gamemode=adventure,nbt=!{Inventory:[{Slot:-106b,id:"minecraft:structure_void"}]},nbt=!{SelectedItem:{id:"minecraft:structure_void"}}]
 clear @a structure_void{gui:1b}
 clear @a axolotl_spawn_egg{gui:1b}
 kill @e[type=item,nbt={Item:{tag:{gui:1b}}}]

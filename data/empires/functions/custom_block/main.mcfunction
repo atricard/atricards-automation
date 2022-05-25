@@ -1,3 +1,4 @@
+execute as @s[tag=companion_cube_block] run function empires:custom_block/companion_cube/main
 execute as @s[tag=clam_block] run function empires:custom_block/clam/main
 execute as @s[tag=clam_chest_block] run function empires:custom_block/clam_chest/main
 execute as @s[tag=conveyor_block] run function empires:custom_block/conveyor/main

@@ -1,4 +1,5 @@
 #Basic Gamerules
+gamerule sendCommandFeedback false
 #Building
 #scoreboard objectives add block_count dummy
 #scoreboard objectives add max_block_count dummy
