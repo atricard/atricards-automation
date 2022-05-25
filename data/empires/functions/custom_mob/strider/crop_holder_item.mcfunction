@@ -1,4 +1,5 @@
-execute positioned ~ ~-1 ~ unless entity @e[type=strider,tag=crop_strider,distance=..1] run tp @s ~ -500 ~
+execute unless block ~ ~1 ~ air run effect give @s instant_damage 999 10 true
+execute positioned ~ ~-1 ~ unless entity @e[type=strider,tag=crop_strider,distance=..1] run tp @s ~ ~-500 ~
 #crops
 #wheat
 execute if entity @e[type=strider,tag=crop_strider,sort=nearest,limit=1,tag=has_crop_wheat,dx=0] run item replace entity @s armor.head with minecraft:structure_void{CustomModelData:2200000}
