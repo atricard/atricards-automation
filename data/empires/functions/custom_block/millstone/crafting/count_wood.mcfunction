@@ -1,0 +1,7 @@
+execute store result score @s ms_input_wood_oak_count run data get block ~ ~ ~ Items[{id:"minecraft:structure_void",Slot:1b,tag:{CustomModelData:2811010,rotted_wood:1b}}].Count 1
+execute store result score @s ms_input_wood_birch_count run data get block ~ ~ ~ Items[{id:"minecraft:structure_void",Slot:1b,tag:{CustomModelData:2811011,rotted_wood:1b}}].Count 1
+execute store result score @s ms_input_wood_acacia_count run data get block ~ ~ ~ Items[{id:"minecraft:structure_void",Slot:1b,tag:{CustomModelData:2811012,rotted_wood:1b}}].Count 1
+execute store result score @s ms_input_wood_jungle_count run data get block ~ ~ ~ Items[{id:"minecraft:structure_void",Slot:1b,tag:{CustomModelData:2811013,rotted_wood:1b}}].Count 1
+execute store result score @s ms_input_wood_spruce_count run data get block ~ ~ ~ Items[{id:"minecraft:structure_void",Slot:1b,tag:{CustomModelData:2811014,rotted_wood:1b}}].Count 1
+execute store result score @s ms_input_wood_dark_oak_count run data get block ~ ~ ~ Items[{id:"minecraft:structure_void",Slot:1b,tag:{CustomModelData:2811015,rotted_wood:1b}}].Count 1
+execute store result score @s ms_input_wood_mangrove_count run data get block ~ ~ ~ Items[{id:"minecraft:structure_void",Slot:1b,tag:{CustomModelData:2811016,rotted_wood:1b}}].Count 1

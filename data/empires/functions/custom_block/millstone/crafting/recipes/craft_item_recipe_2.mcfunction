@@ -1,0 +1,2 @@
+execute store result block ~ ~ ~ Items[{Slot:1b}].Count byte 0.99 run data get block ~ ~ ~ Items[{Slot:1b}].Count
+item replace block ~ ~ ~ container.7 with structure_void{display:{Name:'{"text":"Wheat Flour","italic":false,"color":"white"}'},CustomModelData:2911000} 1

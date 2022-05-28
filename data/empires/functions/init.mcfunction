@@ -36,6 +36,8 @@ scoreboard objectives add spray_release dummy
 scoreboard objectives add spray_scan dummy
 scoreboard objectives add stored_water dummy
 scoreboard objectives add stored_lava dummy
+scoreboard objectives add rot_scan dummy
+scoreboard objectives add rot_time dummy
 scoreboard objectives add clam_time dummy
 scoreboard objectives add key_check dummy
 
@@ -48,6 +50,19 @@ scoreboard objectives add tt_fuel_max dummy
 scoreboard objectives add tt_copper_count dummy
 scoreboard objectives add tt_recipe_id dummy
 scoreboard objectives add tt_output_count dummy
+#
+scoreboard objectives add ms_cook_time dummy
+scoreboard objectives add ms_input_flesh_count dummy
+scoreboard objectives add ms_input_wheat_count dummy
+scoreboard objectives add ms_input_wood_oak_count dummy
+scoreboard objectives add ms_input_wood_birch_count dummy
+scoreboard objectives add ms_input_wood_acacia_count dummy
+scoreboard objectives add ms_input_wood_jungle_count dummy
+scoreboard objectives add ms_input_wood_spruce_count dummy
+scoreboard objectives add ms_input_wood_dark_oak_count dummy
+scoreboard objectives add ms_input_wood_mangrove_count dummy
+scoreboard objectives add ms_input_count dummy
+scoreboard objectives add ms_output_count dummy
 #timers
 scoreboard players set $charcoal tt_fuel_time 1560
 scoreboard players set $coal tt_fuel_time 1560
@@ -55,3 +70,4 @@ function empires:custom_block/conveyor/timer
 function empires:custom_block/extractor/timer
 function empires:custom_block/flopper/timer
 function empires:custom_block/tinker_table/crafting/timer
+function empires:custom_block/millstone/crafting/timer

@@ -18,6 +18,11 @@ execute if block ~ ~ ~ barrel[facing=down]{Items:[{Slot:8b}]} run data modify en
 execute if block ~ ~ ~ barrel[facing=down]{Items:[{Slot:8b}]} run data modify entity @e[type=item,tag=wrong_slot,limit=1,sort=nearest] Item.Count set from block ~ ~ ~ Items[{Slot:8b}].Count
 execute if block ~ ~ ~ barrel[facing=down]{Items:[{Slot:8b}]} run data modify entity @e[type=item,tag=wrong_slot,limit=1,sort=nearest] Item.tag set from block ~ ~ ~ Items[{Slot:8b}].tag
 #
+execute if block ~ ~ ~ barrel[facing=down]{Items:[{Slot:9b}]} run summon item ~ ~1 ~ {PickupDelay:10s,Item:{id:"minecraft:stick",Count:1b},Tags:["wrong_slot"]}
+execute if block ~ ~ ~ barrel[facing=down]{Items:[{Slot:9b}]} run data modify entity @e[type=item,tag=wrong_slot,limit=1,sort=nearest] Item.id set from block ~ ~ ~ Items[{Slot:9b}].id
+execute if block ~ ~ ~ barrel[facing=down]{Items:[{Slot:9b}]} run data modify entity @e[type=item,tag=wrong_slot,limit=1,sort=nearest] Item.Count set from block ~ ~ ~ Items[{Slot:9b}].Count
+execute if block ~ ~ ~ barrel[facing=down]{Items:[{Slot:9b}]} run data modify entity @e[type=item,tag=wrong_slot,limit=1,sort=nearest] Item.tag set from block ~ ~ ~ Items[{Slot:9b}].tag
+#
 execute if block ~ ~ ~ barrel[facing=down]{Items:[{Slot:10b}]} run summon item ~ ~1 ~ {PickupDelay:10s,Item:{id:"minecraft:stick",Count:1b},Tags:["wrong_slot"]}
 execute if block ~ ~ ~ barrel[facing=down]{Items:[{Slot:10b}]} run data modify entity @e[type=item,tag=wrong_slot,limit=1,sort=nearest] Item.id set from block ~ ~ ~ Items[{Slot:10b}].id
 execute if block ~ ~ ~ barrel[facing=down]{Items:[{Slot:10b}]} run data modify entity @e[type=item,tag=wrong_slot,limit=1,sort=nearest] Item.Count set from block ~ ~ ~ Items[{Slot:10b}].Count
@@ -53,6 +58,7 @@ execute if block ~ ~ ~ barrel[facing=down]{Items:[{Slot:1b}]} run data remove bl
 execute if block ~ ~ ~ barrel[facing=down]{Items:[{Slot:6b}]} run data remove block ~ ~ ~ Items[{Slot:6b}]
 execute if block ~ ~ ~ barrel[facing=down]{Items:[{Slot:7b}]} run data remove block ~ ~ ~ Items[{Slot:7b}]
 execute if block ~ ~ ~ barrel[facing=down]{Items:[{Slot:8b}]} run data remove block ~ ~ ~ Items[{Slot:8b}]
+execute if block ~ ~ ~ barrel[facing=down]{Items:[{Slot:9b}]} run data remove block ~ ~ ~ Items[{Slot:9b}]
 execute if block ~ ~ ~ barrel[facing=down]{Items:[{Slot:10b}]} run data remove block ~ ~ ~ Items[{Slot:10b}]
 execute if block ~ ~ ~ barrel[facing=down]{Items:[{Slot:17b}]} run data remove block ~ ~ ~ Items[{Slot:17b}]
 execute if block ~ ~ ~ barrel[facing=down]{Items:[{Slot:19b}]} run data remove block ~ ~ ~ Items[{Slot:19b}]

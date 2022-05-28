@@ -1,0 +1,29 @@
+execute positioned ~1 ~1 ~1 run function empires:misc/rot/log_infect
+execute positioned ~1 ~1 ~ run function empires:misc/rot/log_infect
+execute positioned ~1 ~1 ~-1 run function empires:misc/rot/log_infect
+execute positioned ~ ~1 ~1 run function empires:misc/rot/log_infect
+execute positioned ~ ~1 ~ run function empires:misc/rot/log_infect
+execute positioned ~ ~1 ~-1 run function empires:misc/rot/log_infect
+execute positioned ~-1 ~1 ~1 run function empires:misc/rot/log_infect
+execute positioned ~-1 ~1 ~ run function empires:misc/rot/log_infect
+execute positioned ~-1 ~1 ~-1 run function empires:misc/rot/log_infect
+#
+execute positioned ~1 ~ ~1 run function empires:misc/rot/log_infect
+execute positioned ~1 ~ ~ run function empires:misc/rot/log_infect
+execute positioned ~1 ~ ~-1 run function empires:misc/rot/log_infect
+execute positioned ~ ~ ~1 run function empires:misc/rot/log_infect
+execute positioned ~ ~ ~ run function empires:misc/rot/log_infect
+execute positioned ~ ~ ~-1 run function empires:misc/rot/log_infect
+execute positioned ~-1 ~ ~1 run function empires:misc/rot/log_infect
+execute positioned ~-1 ~ ~ run function empires:misc/rot/log_infect
+execute positioned ~-1 ~ ~-1 run function empires:misc/rot/log_infect
+#
+execute positioned ~1 ~-1 ~1 run function empires:misc/rot/log_infect
+execute positioned ~1 ~-1 ~ run function empires:misc/rot/log_infect
+execute positioned ~1 ~-1 ~-1 run function empires:misc/rot/log_infect
+execute positioned ~ ~-1 ~1 run function empires:misc/rot/log_infect
+execute positioned ~ ~-1 ~ run function empires:misc/rot/log_infect
+execute positioned ~ ~-1 ~-1 run function empires:misc/rot/log_infect
+execute positioned ~-1 ~-1 ~1 run function empires:misc/rot/log_infect
+execute positioned ~-1 ~-1 ~ run function empires:misc/rot/log_infect
+execute positioned ~-1 ~-1 ~-1 run function empires:misc/rot/log_infect

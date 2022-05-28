@@ -44,6 +44,8 @@ clear @a axolotl_spawn_egg{gui:1b}
 kill @e[type=item,nbt={Item:{tag:{gui:1b}}}]
 #Custom Mob
 execute as @e[type=armor_stand,tag=firefly_cloud] at @s run function empires:custom_mob/firefly
+execute as @e[type=glow_item_frame,tag=rot_block] at @s run function empires:misc/rot/main
+execute as @e[type=area_effect_cloud,tag=cutrot] at @s run function empires:misc/rot/flesh_infect
 execute as @e[type=strider,tag=!crop_strider,predicate=empires:in_overworld] at @s run function empires:custom_mob/strider/replace
 execute as @e[type=strider,tag=!built_nest,predicate=empires:in_nether] run function empires:custom_mob/strider/nether_tag
 function empires:custom_mob/strider/main

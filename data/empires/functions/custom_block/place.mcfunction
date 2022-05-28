@@ -11,4 +11,5 @@ execute as @s[tag=sprinkler] run function empires:custom_block/sprinkler/place
 execute as @s[tag=extractor] run function empires:custom_block/extractor/place
 execute as @s[tag=tank] run function empires:custom_block/tank/place
 execute as @s[tag=spout] run function empires:custom_block/spout/place
+execute as @s[tag=millstone] run function empires:custom_block/millstone/place
 execute as @s[tag=storage] run function empires:custom_block/storage/place
