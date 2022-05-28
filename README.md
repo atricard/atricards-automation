@@ -1,2 +1,2 @@
-# empires_reboot
-RPG datapack for Minecraft
+# atricard's automation datapack
+vanilla+ tech datapack for Minecraft
