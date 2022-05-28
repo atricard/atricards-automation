@@ -1,3 +1,0 @@
-execute store success score @s match run data modify storage empires:filtered_item compare.id set from entity @s Item.id
-execute store success score $filter_result match run data modify storage empires:filtered_item compare.id set from entity @s Item.id
-execute if score $filter_result match matches 0 if score @s match matches 0 at @e[type=minecraft:item_frame,dx=0,sort=nearest,limit=1] positioned ~ ~0.5 ~ run function empires:custom_block/tube/filter_valid

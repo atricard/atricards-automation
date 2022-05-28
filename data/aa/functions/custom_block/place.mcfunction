@@ -1,0 +1,15 @@
+execute as @s[tag=companion_cube] run function aa:custom_block/companion_cube/place
+execute as @s[tag=clam_spawn] run function aa:custom_mob/clam/spawn
+execute as @s[tag=clam] run function aa:custom_block/clam/place
+execute as @s[tag=clam_chest] run function aa:custom_block/clam_chest/place
+execute as @s[tag=conveyor] run function aa:custom_block/conveyor/place
+execute as @s[tag=tube] run function aa:custom_block/tube/place
+execute as @s[tag=nest] run function aa:custom_block/nest/place
+execute as @s[tag=tinker_table] run function aa:custom_block/tinker_table/place
+execute as @s[tag=flopper] run function aa:custom_block/flopper/place
+execute as @s[tag=sprinkler] run function aa:custom_block/sprinkler/place
+execute as @s[tag=extractor] run function aa:custom_block/extractor/place
+execute as @s[tag=tank] run function aa:custom_block/tank/place
+execute as @s[tag=spout] run function aa:custom_block/spout/place
+execute as @s[tag=millstone] run function aa:custom_block/millstone/place
+execute as @s[tag=storage] run function aa:custom_block/storage/place

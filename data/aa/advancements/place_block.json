@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": {
+            "block": {
+              "tag": "aa:valid_building_block"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "aa:building/add_block"
+    }
+  }
+  
