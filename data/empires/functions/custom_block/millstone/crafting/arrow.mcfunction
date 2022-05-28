@@ -1,3 +1,4 @@
+execute if score @s ms_cook_time matches 1 run particle smoke ~ ~0.5 ~ 0.5 0.5 0.5 0 5 normal
 execute if score @s ms_cook_time matches 1 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110000} 1
 execute if score @s ms_cook_time matches 2 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110001} 1
 execute if score @s ms_cook_time matches 3 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110002} 1
