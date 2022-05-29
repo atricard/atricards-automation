@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:axolotl_spawn_egg",
+        "nbt": "{CustomModelData:2100004}"
+      },
+      "title": "Nest Poacher",
+      "description": "Steal a Strider's Nest from the Nether",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "aa:story/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:axolotl_spawn_egg"
+              ],
+              "nbt": "{display:{Name:'{\"text\":\"Strider Nest\",\"italic\":false}'}}"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

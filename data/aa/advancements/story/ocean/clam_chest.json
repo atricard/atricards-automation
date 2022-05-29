@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:axolotl_spawn_egg",
+      "nbt": "{CustomModelData:2700001}"
+    },
+    "title": "Keep Clam and Carry On",
+    "description": "Lock a chest with a Clamshell and Pearl",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "aa:story/ocean/clam",
+      "criteria": {
+        "requirement": {
+          "trigger": "minecraft:impossible"
+        }
+      }
+    }

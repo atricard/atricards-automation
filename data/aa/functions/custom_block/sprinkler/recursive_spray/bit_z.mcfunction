@@ -6,6 +6,7 @@ execute if block ~ ~ ~ farmland[moisture=3] run setblock ~ ~ ~ farmland[moisture
 execute if block ~ ~ ~ farmland[moisture=2] run setblock ~ ~ ~ farmland[moisture=7]
 execute if block ~ ~ ~ farmland[moisture=1] run setblock ~ ~ ~ farmland[moisture=7]
 execute if block ~ ~ ~ farmland[moisture=0] run setblock ~ ~ ~ farmland[moisture=7]
+advancement grant @a[distance=..9] only aa:story/crafting/sprinkler
 execute if predicate aa:spray_chance run function aa:custom_block/sprinkler/recursive_spray/bone_meal
 #recurse
 scoreboard players add $z spray_scan 1

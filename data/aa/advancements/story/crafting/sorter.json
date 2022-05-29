@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:axolotl_spawn_egg",
+      "nbt": "{CustomModelData:2100003}"
+    },
+    "title": "Sort of a Big Deal",
+    "description": "Craft a Pnuematic Sorter",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "aa:story/crafting/conveyor",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:axolotl_spawn_egg"
+            ],
+            "nbt": "{display:{Name:'{\"text\":\"Pneumatic Sorter\",\"italic\":false}'}}"
+          }
+        ]
+      }
+    }
+  }
+}

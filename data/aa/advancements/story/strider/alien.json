@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:string"
+    },
+    "title": "Alien Farming",
+    "description": "Bring a Strider to the Overworld to do your bidding",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "aa:story/strider/nest",
+      "criteria": {
+        "requirement": {
+          "trigger": "minecraft:impossible"
+        }
+      }
+    }

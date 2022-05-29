@@ -29,6 +29,7 @@ execute as @e[type=villager,tag=init_citizen,tag=!shopkeep] at @s run function a
 ##execute as @e[type=marker,tag=warp,tag=!warp_init] at @s run function aa:warps/main
 ##execute as @a[scores={warp=1..}] run function aa:warps/teleport/check_score
 #Machines
+execute as @e[type=item,nbt={Item:{id:"minecraft:axolotl_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Companion Cube","italic":false}'},CustomModelData:2800000,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Radius:0f,Age:1,Tags:["companion_cube","empires_machine","machine_init"]}}}}] at @s run function aa:custom_block/companion_cube/item
 execute as @e[type=item,nbt={Item:{id:"minecraft:axolotl_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Clamshell Block","italic":false}'},CustomModelData:2700000,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Radius:0f,Age:1,Tags:["clam","empires_machine","machine_init"]}}}}] at @s if block ~ ~-1 ~ chest[type=single] run function aa:custom_block/clam_chest/spawn
 execute as @e[type=item,nbt={Item:{id:"minecraft:copper_ingot",Count:1b}}] at @s if block ~ ~-0.5 ~ crafting_table if block ~ ~0.5 ~ piston_head positioned ~ ~-0.5 ~ run function aa:custom_block/tinker_table/spawn
 execute as @e[type=area_effect_cloud,tag=empires_machine,tag=machine_init] at @s run function aa:custom_block/place

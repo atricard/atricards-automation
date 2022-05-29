@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:copper_block"
+      },
+      "title": {
+        "text": "atricard's automation",
+        "color": "gold",
+        "bold": false,
+        "italic": false,
+        "underlined": true
+      },
+      "description": {
+        "text": "make sure you download the resource pack!"
+      },
+      "background": "minecraft:textures/ac/copper_pipe_solid.png"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

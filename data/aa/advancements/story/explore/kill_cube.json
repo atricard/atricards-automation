@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lava_bucket"
+    },
+    "title": "Fratricide",
+    "description": "Incinerate a Companion Cube in fire or lava",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "aa:story/explore/companion_cube",
+      "criteria": {
+        "requirement": {
+          "trigger": "minecraft:impossible"
+        }
+      }
+    }
