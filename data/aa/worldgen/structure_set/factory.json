@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "aa:factory",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 20,
+      "separation": 15,
+      "salt": 18314468486
+    }
+  }

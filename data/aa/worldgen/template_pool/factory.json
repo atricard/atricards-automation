@@ -1,0 +1,42 @@
+{
+    "name": "aa:factory",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "aa:set_in_ground",
+                "location": "aa:ruined_brick_factory"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "aa:set_in_ground",
+                "location": "aa:old_cyan_factory"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "aa:set_in_ground",
+                "location": "aa:old_mangrove_factory"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "aa:set_in_ground",
+                "location": "aa:old_stone_factory"
+            }
+        }
+    ]
+}

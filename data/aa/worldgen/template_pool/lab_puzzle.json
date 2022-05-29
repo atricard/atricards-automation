@@ -1,0 +1,15 @@
+{
+    "name": "aa:lab_puzzle",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "aa:set_deep_in_ground",
+                "location": "aa:lab_puzzle"
+            }
+        }
+    ]
+}

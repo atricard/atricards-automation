@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "aa:lab_puzzle",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 30,
+      "separation": 20,
+      "salt": 18314468486
+    }
+  }
