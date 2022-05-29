@@ -13,3 +13,4 @@ execute as @s[tag=tank] run function aa:custom_block/tank/place
 execute as @s[tag=spout] run function aa:custom_block/spout/place
 execute as @s[tag=millstone] run function aa:custom_block/millstone/place
 execute as @s[tag=storage] run function aa:custom_block/storage/place
+execute as @s[tag=game_board_place] run function aa:custom_block/game_board/place

@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 5,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tnt",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:limit_count",
+            "limit": 1
+          },
+          {
+            "function": "minecraft:set_nbt",
+            "tag": "{bomb_laid:1b}"
+          }
+        ]
+      }
+    ]
+  }
+  

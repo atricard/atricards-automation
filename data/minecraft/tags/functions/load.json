@@ -1,5 +1,6 @@
 {
   "values":[
-    "aa:init"
-    ]
+    "aa:init",
+    "minesweeper:init"
+]
 }
