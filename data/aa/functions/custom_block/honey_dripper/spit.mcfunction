@@ -33,5 +33,5 @@ execute if block ~ ~ ~ dropper[facing=up]{Items:[{Slot:0b}]} run data remove blo
 execute if block ~ ~ ~ dropper[facing=up]{Items:[{Slot:2b}]} run data remove block ~ ~ ~ Items[{Slot:2b}]
 execute if block ~ ~ ~ dropper[facing=up]{Items:[{Slot:3b}]} unless data block ~ ~ ~ Items[{Slot:3b}].tag.gui run data remove block ~ ~ ~ Items[{Slot:3b}]
 execute if block ~ ~ ~ dropper[facing=up]{Items:[{Slot:4b}]} run data remove block ~ ~ ~ Items[{Slot:4b}]
-execute if block ~ ~ ~ dropper[facing=up]{Items:[{Slot:5b}]} run data remove block ~ ~ ~ Items[{Slot:7b}]
+execute if block ~ ~ ~ dropper[facing=up]{Items:[{Slot:7b}]} run data remove block ~ ~ ~ Items[{Slot:7b}]
 execute if block ~ ~ ~ dropper[facing=up]{Items:[{Slot:8b}]} run data remove block ~ ~ ~ Items[{Slot:8b}]
