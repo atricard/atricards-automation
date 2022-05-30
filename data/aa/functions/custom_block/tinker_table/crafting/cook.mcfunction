@@ -25,5 +25,8 @@ execute if score @s tt_copper_count matches 6.. if score @s tt_redstone_count ma
 #recipe 8
 execute if score @s tt_copper_count matches 8.. if score @s tt_redstone_count matches 1.. if score @s tt_recipe_id matches 8 if score @s tt_cook_time matches 13.. if score @s tt_output_count matches 0 run function aa:custom_block/tinker_table/crafting/recipes/craft_item_recipe_8
 execute if score @s tt_copper_count matches 8.. if score @s tt_redstone_count matches 1.. if score @s tt_recipe_id matches 8 if score @s tt_cook_time matches 13.. if score @s tt_output_count matches 1..63 run function aa:custom_block/tinker_table/crafting/recipes/add_item_recipe_8
+#recipe 8
+execute if score @s tt_copper_count matches 8.. if score @s tt_redstone_count matches 1.. if score @s tt_recipe_id matches 9 if score @s tt_cook_time matches 13.. if score @s tt_output_count matches 0 run function aa:custom_block/tinker_table/crafting/recipes/craft_item_recipe_9
+execute if score @s tt_copper_count matches 8.. if score @s tt_redstone_count matches 1.. if score @s tt_recipe_id matches 9 if score @s tt_cook_time matches 13.. if score @s tt_output_count matches 1..63 run function aa:custom_block/tinker_table/crafting/recipes/add_item_recipe_9
 #end
 execute if score @s tt_cook_time matches 13.. run scoreboard players set @s tt_cook_time 0

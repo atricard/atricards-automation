@@ -1,0 +1,1 @@
+execute store result score @s hd_output_count run data get block ~ ~ ~ Items[{Slot:5b}].Count 1
