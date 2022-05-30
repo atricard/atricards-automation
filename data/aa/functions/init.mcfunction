@@ -68,6 +68,7 @@ scoreboard objectives add hd_cook_time dummy
 scoreboard objectives add hd_input_honeycomb_count dummy
 scoreboard objectives add hd_input_bottle_count dummy
 scoreboard objectives add hd_output_count dummy
+scoreboard objectives add hd_output_byproduct_count dummy
 #
 scoreboard objectives add dough_cook_time dummy
 scoreboard objectives add dough_o_death_cook_time dummy
