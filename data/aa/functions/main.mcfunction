@@ -38,6 +38,8 @@ execute as @e[type=marker,tag=fluid] at @s run function aa:custom_block/flopper/
 execute as @e[type=marker,tag=extract_fluid] at @s run function aa:custom_block/extractor/fluid/extract
 execute as @e[type=glow_item_frame,tag=custom_block] at @s run function aa:custom_block/main
 #crafting
+execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:structure_void",tag:{display:{Name:'{"text":"Dough","italic":false,"color":"white"}'},CustomModelData:2911001}}}] at @s run function aa:misc/dough/main
+execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:structure_void",tag:{display:{Name:'{"text":"Wheat Flour","italic":false,"color":"white"}'},CustomModelData:2911000}}}] at @s if block ~ ~ ~ water run function aa:misc/dough/wet
 gamemode adventure @a[gamemode=survival,nbt={Inventory:[{Slot:-106b,id:"minecraft:structure_void"}]}]
 gamemode adventure @a[gamemode=survival,nbt={SelectedItem:{id:"minecraft:structure_void"}}]
 gamemode survival @a[gamemode=adventure,nbt=!{Inventory:[{Slot:-106b,id:"minecraft:structure_void"}]},nbt=!{SelectedItem:{id:"minecraft:structure_void"}}]

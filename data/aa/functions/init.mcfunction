@@ -63,6 +63,9 @@ scoreboard objectives add ms_input_wood_dark_oak_count dummy
 scoreboard objectives add ms_input_wood_mangrove_count dummy
 scoreboard objectives add ms_input_count dummy
 scoreboard objectives add ms_output_count dummy
+#
+scoreboard objectives add dough_cook_time dummy
+scoreboard objectives add dough_o_death_cook_time dummy
 #timers
 scoreboard players set $charcoal tt_fuel_time 1560
 scoreboard players set $coal tt_fuel_time 1560
