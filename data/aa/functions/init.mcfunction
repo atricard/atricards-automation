@@ -1,5 +1,5 @@
 #Basic Gamerules
-#gamerule sendCommandFeedback false
+gamerule sendCommandFeedback false
 #Building
 #scoreboard objectives add block_count dummy
 #scoreboard objectives add max_block_count dummy
@@ -40,7 +40,7 @@ scoreboard objectives add rot_scan dummy
 scoreboard objectives add rot_time dummy
 scoreboard objectives add clam_time dummy
 scoreboard objectives add key_check dummy
-
+scoreboard objectives add minesweeper_wins dummy {"text":"Minesweeper Wins","italic":false,"color":"#FFF700"}
 #Crafting
 scoreboard objectives add tt_cook_time dummy
 scoreboard objectives add tt_redstone_count dummy

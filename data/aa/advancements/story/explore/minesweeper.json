@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:axolotl_spawn_egg",
+      "nbt": "{CustomModelData:2990000}"
+    },
+    "title": "Bomb Squad",
+    "description": "Win a game of Minesweeper",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "aa:story/root",
+      "criteria": {
+        "requirement": {
+          "trigger": "minecraft:impossible"
+        }
+      }
+    }

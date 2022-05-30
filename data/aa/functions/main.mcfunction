@@ -22,6 +22,7 @@ execute as @a[tag=!empires_logged] at @s run function aa:new_player
 #Building Level
 #execute as @a at @s if score @s builder_exp >= @s builder_thres run function aa:builder_level/level_up
 #Villager Names
+execute as @e[type=wandering_trader,tag=!custom_trades_applied] run function aa:villager/wandering_trader
 execute as @e[type=villager,tag=!init_citizen] at @s run function aa:villager/spawn
 execute as @e[type=villager,tag=init_citizen,tag=!shopkeep] at @s run function aa:villager/main
 #Warp

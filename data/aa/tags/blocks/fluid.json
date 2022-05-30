@@ -2,8 +2,12 @@
     "values":[
         "water",
         "kelp",
+        "seagrass",
+        "tall_seagrass",
         "kelp_plant",
         "lava",
-        "air"
+        "air",
+        "cave_air",
+        "void_air"
     ]
    }
