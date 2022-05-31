@@ -1,1 +1,1 @@
-item replace block ~ ~ ~ container.8 with slime_ball{display:{Name:'{"text":"Propolis","italic":false}'},CustomModelData:3110001} 1
+item replace block ~ ~ ~ container.8 with slime_ball{display:{Name:'{"text":"Bee Slime","italic":false}'},CustomModelData:3110001} 1

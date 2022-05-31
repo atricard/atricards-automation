@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:slime_ball",
+      "nbt": "{CustomModelData:3110001}"
+    },
+    "title": "Slime of A Different Color",
+    "description": "Create Bee Slime as a byproduct in the Honey Dripper",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "aa:story/crafting/tinker",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:slime_ball"
+            ],
+            "nbt": "{display:{Name:'{\"text\":\"Bee Slime\",\"italic\":false}'}}"
+          }
+        ]
+      }
+    }
+  }
+}
