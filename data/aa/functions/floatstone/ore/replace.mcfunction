@@ -1,0 +1,1 @@
+execute unless entity @e[type=glow_item_frame,tag=floatstone_ore,distance=..50,limit=5] run function aa:floatstone/ore/spawner_generate

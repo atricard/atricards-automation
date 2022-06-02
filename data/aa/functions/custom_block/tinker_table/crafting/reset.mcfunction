@@ -20,7 +20,7 @@ item replace block ~ ~ ~ container.12 with axolotl_spawn_egg{display:{Name:'{"te
 item replace block ~ ~ ~ container.13 with axolotl_spawn_egg{display:{Name:'{"text":"Fluid Spout","italic":false}',Lore:['{"text":"6 Copper","color":"#FF9100","italic":false}']},CustomModelData:2600000,gui:1b} 1
 item replace block ~ ~ ~ container.14 with axolotl_spawn_egg{display:{Name:'{"text":"Millstone","italic":false}',Lore:['{"text":"8 Copper","color":"#FF9100","italic":false}']},CustomModelData:2910000,gui:1b} 1
 item replace block ~ ~ ~ container.20 with axolotl_spawn_egg{display:{Name:'{"text":"Honey Dripper","italic":false}',Lore:['{"text":"8 Copper","color":"#FF9100","italic":false}']},CustomModelData:3110000,gui:1b} 1
-item replace block ~ ~ ~ container.21 with structure_void{gui:1b,display:{Name:'{"text":"No Recipe","color":"dark_red","italic":false}'}}
+item replace block ~ ~ ~ container.21 with axolotl_spawn_egg{display:{Name:'{"text":"Floatstone Motor","italic":false}',Lore:['{"text":"20 Floatstone","color":"#FF57FF","italic":false}']},CustomModelData:3111002,gui:1b} 1
 item replace block ~ ~ ~ container.22 with structure_void{gui:1b,display:{Name:'{"text":"No Recipe","color":"dark_red","italic":false}'}}
 item replace block ~ ~ ~ container.23 with structure_void{gui:1b,display:{Name:'{"text":"No Recipe","color":"dark_red","italic":false}'}}
 #
@@ -33,6 +33,6 @@ execute if score @s tt_recipe_id matches 6 run item replace block ~ ~ ~ containe
 execute if score @s tt_recipe_id matches 7 run item replace block ~ ~ ~ container.13 with axolotl_spawn_egg{Enchantments:[{}],display:{Name:'{"text":"Fluid Spout","italic":false}',Lore:['{"text":"6 Copper","color":"#FF9100","italic":false}']},CustomModelData:2600000,gui:1b} 1
 execute if score @s tt_recipe_id matches 8 run item replace block ~ ~ ~ container.14 with axolotl_spawn_egg{Enchantments:[{}],display:{Name:'{"text":"Millstone","italic":false}',Lore:['{"text":"8 Copper","color":"#FF9100","italic":false}']},CustomModelData:2910000,gui:1b} 1
 execute if score @s tt_recipe_id matches 9 run item replace block ~ ~ ~ container.20 with axolotl_spawn_egg{Enchantments:[{}],display:{Name:'{"text":"Honey Dripper","italic":false}',Lore:['{"text":"8 Copper","color":"#FF9100","italic":false}']},CustomModelData:3110000,gui:1b} 1
-execute if score @s tt_recipe_id matches 0 run item replace block ~ ~ ~ container.21 with structure_void{Enchantments:[{}],gui:1b,display:{Name:'{"text":"No Recipe","color":"dark_red","italic":false}'}}
+execute if score @s tt_recipe_id matches 10 run item replace block ~ ~ ~ container.21 with axolotl_spawn_egg{Enchantments:[{}],display:{Name:'{"text":"Floatstone Motor","italic":false}',Lore:['{"text":"20 Floatstone","color":"#FF57FF","italic":false}']},CustomModelData:3111002,gui:1b} 1
 execute if score @s tt_recipe_id matches 0 run item replace block ~ ~ ~ container.22 with structure_void{Enchantments:[{}],gui:1b,display:{Name:'{"text":"No Recipe","color":"dark_red","italic":false}'}}
 execute if score @s tt_recipe_id matches 0 run item replace block ~ ~ ~ container.23 with structure_void{Enchantments:[{}],gui:1b,display:{Name:'{"text":"No Recipe","color":"dark_red","italic":false}'}}

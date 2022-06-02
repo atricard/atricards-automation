@@ -15,3 +15,4 @@ execute as @s[tag=millstone] run function aa:custom_block/millstone/place
 execute as @s[tag=dripper] run function aa:custom_block/honey_dripper/place
 execute as @s[tag=storage] run function aa:custom_block/storage/place
 execute as @s[tag=game_board_place] run function aa:custom_block/game_board/place
+execute as @s[tag=motor] run function aa:custom_block/motor/place

@@ -1,1 +1,2 @@
 execute store result score @s tt_copper_count run data get block ~ ~ ~ Items[{id:"minecraft:copper_ingot",Slot:0b}].Count 1
+execute store result score @s tt_floatstone_count run data get block ~ ~ ~ Items[{id:"minecraft:structure_void",Slot:0b,tag:{Enchantments:[{}],display:{Name:'{"text":"Floatstone","italic":false,"color":"white"}'},CustomModelData:3111001}}].Count 1

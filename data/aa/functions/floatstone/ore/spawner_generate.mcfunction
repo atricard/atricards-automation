@@ -1,0 +1,9 @@
+execute positioned ~1 ~-1 ~1 if block ~ ~ ~ end_stone if predicate aa:floatstone_spawn run function aa:floatstone/ore/spawn_ore
+execute positioned ~1 ~-1 ~ if block ~ ~ ~ end_stone if predicate aa:floatstone_spawn run function aa:floatstone/ore/spawn_ore
+execute positioned ~1 ~-1 ~-1 if block ~ ~ ~ end_stone if predicate aa:floatstone_spawn run function aa:floatstone/ore/spawn_ore
+execute positioned ~ ~-1 ~1 if block ~ ~ ~ end_stone if predicate aa:floatstone_spawn run function aa:floatstone/ore/spawn_ore
+execute positioned ~ ~-1 ~ if block ~ ~ ~ end_stone if predicate aa:floatstone_spawn run function aa:floatstone/ore/spawn_ore
+execute positioned ~ ~-1 ~-1 if block ~ ~ ~ end_stone if predicate aa:floatstone_spawn run function aa:floatstone/ore/spawn_ore
+execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ end_stone if predicate aa:floatstone_spawn run function aa:floatstone/ore/spawn_ore
+execute positioned ~-1 ~-1 ~ if block ~ ~ ~ end_stone if predicate aa:floatstone_spawn run function aa:floatstone/ore/spawn_ore
+execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ end_stone if predicate aa:floatstone_spawn run function aa:floatstone/ore/spawn_ore

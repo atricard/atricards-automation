@@ -13,3 +13,4 @@ execute as @s[tag=spout_block] run function aa:custom_block/spout/main
 execute as @s[tag=millstone_block] run function aa:custom_block/millstone/main
 execute as @s[tag=dripper_block] run function aa:custom_block/honey_dripper/main
 execute as @s[tag=gift_block] run function aa:custom_block/storage/main
+execute as @s[tag=motor_block] run function aa:custom_block/motor/main

@@ -48,6 +48,7 @@ scoreboard objectives add tt_fuel_time dummy
 scoreboard objectives add tt_fuel_progress dummy
 scoreboard objectives add tt_fuel_max dummy
 scoreboard objectives add tt_copper_count dummy
+scoreboard objectives add tt_floatstone_count dummy
 scoreboard objectives add tt_recipe_id dummy
 scoreboard objectives add tt_output_count dummy
 #

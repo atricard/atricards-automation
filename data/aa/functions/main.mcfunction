@@ -46,10 +46,16 @@ gamemode survival @a[gamemode=adventure,nbt=!{Inventory:[{Slot:-106b,id:"minecra
 clear @a structure_void{gui:1b}
 clear @a axolotl_spawn_egg{gui:1b}
 kill @e[type=item,nbt={Item:{tag:{gui:1b}}}]
-#Custom Mob
+#Custom
 execute as @e[type=armor_stand,tag=firefly_cloud] at @s run function aa:custom_mob/firefly
+#floatstone
+execute as @e[type=enderman,tag=!floatstone_ore_spawned,predicate=aa:in_end] if predicate aa:floatstone_spawn at @s run function aa:floatstone/ore/replace
+tag @e[type=enderman,tag=!floatstone_ore_spawned,predicate=aa:in_end] add floatstone_ore_spawned
+execute as @e[type=glow_item_frame,tag=floatstone_ore] at @s run function aa:floatstone/ore/main
+#rot
 execute as @e[type=glow_item_frame,tag=rot_block] at @s run function aa:misc/rot/main
 execute as @e[type=area_effect_cloud,tag=cutrot] at @s run function aa:misc/rot/flesh_infect
+#strider
 execute as @e[type=strider,tag=!crop_strider,predicate=aa:in_overworld] at @s run function aa:custom_mob/strider/replace
 execute as @e[type=strider,tag=!built_nest,predicate=aa:in_nether] run function aa:custom_mob/strider/nether_tag
 function aa:custom_mob/strider/main
@@ -57,6 +63,7 @@ execute as @e[type=strider,tag=crop_strider,tag=!has_crop] at @s run function aa
 execute as @e[type=zombified_piglin,tag=crop_finder] at @s run function aa:custom_mob/strider/crop_holder_item
 execute as @e[type=vex,tag=crop_scan] run function aa:custom_mob/strider/scan/main
 execute as @e[type=vex,tag=nest_scan] run function aa:custom_mob/strider/scan/main
+#clam
 execute as @e[type=cod,tag=!spawned_clam] at @s run function aa:custom_mob/clam/chance
 execute as @e[type=area_effect_cloud,tag=sink_clam] at @s run function aa:custom_mob/clam/sink
 #Custom Tool
