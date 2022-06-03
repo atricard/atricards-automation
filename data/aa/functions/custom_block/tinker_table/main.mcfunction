@@ -2,9 +2,9 @@
 execute if block ~ ~1 ~ minecraft:hopper[enabled=true] run setblock ~ ~1 ~ minecraft:hopper[enabled=false]
 execute if block ~ ~-1 ~ minecraft:hopper[enabled=true] run setblock ~ ~-1 ~ minecraft:hopper[enabled=false]
 #tags
-scoreboard players set @s[tag=!recipe_reset] tt_recipe_id 0
-scoreboard players set @s[tag=!recipe_reset] tt_cook_time 0
-scoreboard players set @s[tag=!recipe_reset] tt_fuel_time 0
+scoreboard players set @s[tag=!recipe_reset] recipe_id 0
+scoreboard players set @s[tag=!recipe_reset] cook_time 0
+scoreboard players set @s[tag=!recipe_reset] fuel_time 0
 tag @s[tag=!recipe_reset] add recipe_reset
 #crafting
 function aa:custom_block/tinker_table/crafting/selection

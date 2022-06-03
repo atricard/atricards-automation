@@ -1,15 +1,15 @@
-execute if score @s ms_cook_time matches 1 run particle smoke ~ ~0.5 ~ 0.5 0.5 0.5 0 5 normal
-execute if score @s ms_cook_time matches 1 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110000} 1
-execute if score @s ms_cook_time matches 2 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110001} 1
-execute if score @s ms_cook_time matches 3 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110002} 1
-execute if score @s ms_cook_time matches 4 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110003} 1
-execute if score @s ms_cook_time matches 5 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110004} 1
-execute if score @s ms_cook_time matches 6 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110005} 1
-execute if score @s ms_cook_time matches 7 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110006} 1
-execute if score @s ms_cook_time matches 8 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110007} 1
-execute if score @s ms_cook_time matches 9 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110008} 1
-execute if score @s ms_cook_time matches 10 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110009} 1
-execute if score @s ms_cook_time matches 11 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110010} 1
-execute if score @s ms_cook_time matches 12 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110011} 1
-execute if score @s ms_cook_time matches 13 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110012} 1
-execute if score @s ms_cook_time matches 0 run item replace block ~ ~ ~ container.4 with air
+execute if score @s cook_time matches 1 run particle smoke ~ ~0.5 ~ 0.5 0.5 0.5 0 5 normal
+execute if score @s cook_time matches 1 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110000} 1
+execute if score @s cook_time matches 2 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110001} 1
+execute if score @s cook_time matches 3 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110002} 1
+execute if score @s cook_time matches 4 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110003} 1
+execute if score @s cook_time matches 5 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110004} 1
+execute if score @s cook_time matches 6 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110005} 1
+execute if score @s cook_time matches 7 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110006} 1
+execute if score @s cook_time matches 8 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110007} 1
+execute if score @s cook_time matches 9 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110008} 1
+execute if score @s cook_time matches 10 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110009} 1
+execute if score @s cook_time matches 11 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110010} 1
+execute if score @s cook_time matches 12 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110011} 1
+execute if score @s cook_time matches 13 run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Milling in Progress","color":"red","italic":false}'},gui:1b,CustomModelData:1110012} 1
+execute if score @s cook_time matches 0 run item replace block ~ ~ ~ container.4 with air
