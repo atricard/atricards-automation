@@ -54,4 +54,6 @@ execute as @s[tag=chest_s] run summon marker ~-1 ~ ~ {Tags:["chest_s","new_block
 execute as @s[tag=chest_w] run summon marker ~-1 ~ ~ {Tags:["chest_w","new_block_float","ship_marker"]}
 execute as @s[tag=chest_e] run summon marker ~-1 ~ ~ {Tags:["chest_e","new_block_float","ship_marker"]}
 #
+execute positioned ~-1 ~ ~ run data modify entity @e[type=marker,tag=ship_marker,tag=new_block_float,limit=1,distance=..1,sort=nearest] data.Items set from entity @s data.Items
+#
 kill @s
