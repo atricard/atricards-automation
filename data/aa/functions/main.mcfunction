@@ -47,8 +47,6 @@ clear @a structure_void{gui:1b}
 clear @a axolotl_spawn_egg{gui:1b}
 clear @a carrot_on_a_stick{gui:1b}
 kill @e[type=item,nbt={Item:{tag:{gui:1b}}}]
-#Custom
-execute as @e[type=armor_stand,tag=firefly_cloud] at @s run function aa:custom_mob/firefly
 #floatstone
 execute as @a[predicate=aa:holding_wand,scores={use_wand=1..}] at @s run function aa:floatstone/wand/use
 execute as @e[type=area_effect_cloud,tag=wand_sprite] at @s run function aa:floatstone/wand/sprite
@@ -74,3 +72,5 @@ execute as @e[type=cod,tag=!spawned_clam] at @s run function aa:custom_mob/clam/
 execute as @e[type=area_effect_cloud,tag=sink_clam] at @s run function aa:custom_mob/clam/sink
 #Custom Tool
 execute as @a[scores={hit_mob=1..}] run function aa:custom_tool/revoke_pan_hit
+#misc
+execute as @a[scores={eat_cake=1..}] run function aa:misc/food/eat_cake

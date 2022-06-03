@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "tag": "aa:food/supernatural"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "aa:misc/food/eat_supernatural"
+  }
+}
