@@ -1,6 +1,8 @@
 #execute if score @s tt_fuel_time matches 0 run scoreboard players set @s tt_cook_time 0tinker_table/crafting/
 execute if score @s tt_redstone_count matches 0 run scoreboard players set @s tt_cook_time 0
 execute if score @s tt_input_count matches 0 run scoreboard players set @s tt_cook_time 0
+execute if score @s tt_recipe_id matches 0 run scoreboard players set @s tt_cook_time 0
+
 #execute if score @s tt_redstone_count matches 1.. if score @s tt_copper_count matches 1.. if score @s tt_recipe_id matches 1..7 if score @s tt_fuel_time matches 0 run function aa:custom_block/tinker_table/crafting/use_fuel
 #recipe 1
 execute if score @s tt_copper_count matches 7.. if score @s tt_redstone_count matches 1.. if score @s tt_recipe_id matches 1 if score @s tt_cook_time matches 13.. if score @s tt_output_count matches 0 run function aa:custom_block/tinker_table/crafting/recipes/craft_item_recipe_1
