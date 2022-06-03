@@ -1,4 +1,4 @@
-scoreboard players remove @s tt_floatstone_count 20
+scoreboard players remove @s tt_floatstone_count 3
 execute store result block ~ ~ ~ Items[{Slot:0b}].Count byte 1 run scoreboard players get @s tt_floatstone_count 
 execute store result block ~ ~ ~ Items[{Slot:18b}].Count byte 0.99 run data get block ~ ~ ~ Items[{Slot:18b}].Count
-item modify block ~ ~ ~ container.17 aa:add_one
+item replace block ~ ~ ~ container.17 with carrot_on_a_stick{display:{Name:'{"text":"Gravity Wand","color":"yellow","italic":false}'},CustomModelData:3110000} 1

@@ -45,12 +45,16 @@ gamemode adventure @a[gamemode=survival,nbt={SelectedItem:{id:"minecraft:structu
 gamemode survival @a[gamemode=adventure,nbt=!{Inventory:[{Slot:-106b,id:"minecraft:structure_void"}]},nbt=!{SelectedItem:{id:"minecraft:structure_void"}}]
 clear @a structure_void{gui:1b}
 clear @a axolotl_spawn_egg{gui:1b}
+clear @a carrot_on_a_stick{gui:1b}
 kill @e[type=item,nbt={Item:{tag:{gui:1b}}}]
 #Custom
 execute as @e[type=armor_stand,tag=firefly_cloud] at @s run function aa:custom_mob/firefly
 #floatstone
 execute as @a[predicate=aa:holding_wand,scores={use_wand=1..}] at @s run function aa:floatstone/wand/use
 execute as @e[type=area_effect_cloud,tag=wand_sprite] at @s run function aa:floatstone/wand/sprite
+execute as @e[type=end_crystal] at @s run function aa:floatstone/end_crystal/find_player
+execute as @e[type=area_effect_cloud,tag=crystal_sprite] at @s run function aa:floatstone/end_crystal/sprite
+execute as @e[type=area_effect_cloud,tag=controller_sprite] at @s run function aa:floatstone/end_crystal/controller_sprite
 execute as @e[type=enderman,tag=!floatstone_ore_spawned,predicate=aa:in_end] if predicate aa:floatstone_spawn at @s run function aa:floatstone/ore/replace
 tag @e[type=enderman,tag=!floatstone_ore_spawned,predicate=aa:in_end] add floatstone_ore_spawned
 execute as @e[type=glow_item_frame,tag=floatstone_ore] at @s run function aa:floatstone/ore/main

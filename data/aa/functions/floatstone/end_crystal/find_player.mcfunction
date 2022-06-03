@@ -1,0 +1,3 @@
+execute if entity @a[predicate=aa:holding_wand,distance=..40] run summon area_effect_cloud ~ ~1 ~ {Radius:-1f,Duration:40,Tags:["crystal_sprite"]}
+execute as @a[predicate=aa:holding_wand,distance=..40] run function aa:floatstone/end_crystal/durability
+execute positioned ~ ~-2 ~ if entity @e[type=glow_item_frame,tag=controller_block,distance=..1,sort=nearest,limit=1] at @s if entity @e[type=glow_item_frame,tag=motor_block,sort=nearest,distance=..25] run function aa:floatstone/end_crystal/find_ship

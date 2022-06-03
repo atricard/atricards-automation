@@ -1,5 +1,6 @@
 #Basic Gamerules
 gamerule sendCommandFeedback false
+scoreboard objectives add temp dummy
 #
 scoreboard objectives add piston_data dummy
 scoreboard objectives add piston_kill dummy
@@ -53,6 +54,7 @@ scoreboard objectives add dough_cook_time dummy
 scoreboard objectives add dough_o_death_cook_time dummy
 #
 scoreboard objectives add fl_direction dummy
+scoreboard objectives add fruit_count dummy
 scoreboard objectives add fl_move_command dummy
 scoreboard objectives add fl_blocks_moved dummy
 scoreboard objectives add ship_scan dummy

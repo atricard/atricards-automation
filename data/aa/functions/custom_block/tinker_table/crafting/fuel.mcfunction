@@ -1,1 +1,1 @@
-execute if block ~ ~ ~ barrel[facing=down]{Items:[{id:"minecraft:redstone",Slot:18b}]} store result score @s tt_redstone_count run data get block ~ ~ ~ Items[{Slot:18b}].Count 1
+execute store result score @s tt_redstone_count run data get block ~ ~ ~ Items[{id:"minecraft:redstone",Slot:18b}].Count 1

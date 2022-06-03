@@ -1,0 +1,1 @@
+execute store result score @s tt_output_count run data get block ~ ~ ~ Items[{Slot:0b}].Count 1
