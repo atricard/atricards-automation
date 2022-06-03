@@ -54,6 +54,7 @@ execute if block ~ ~ ~ chest[type=single,facing=south] run tag @s add chest_s
 execute if block ~ ~ ~ chest[type=single,facing=west] run tag @s add chest_w
 execute if block ~ ~ ~ chest[type=single,facing=east] run tag @s add chest_e
 #
+execute unless block ~ ~ ~ #aa:valid_ship_blocks run kill @s
 data modify entity @s data.Items set from block ~ ~ ~ Items
 #
 tag @s add new_block_float
