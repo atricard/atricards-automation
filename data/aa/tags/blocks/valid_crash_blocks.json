@@ -1,0 +1,11 @@
+{
+    "values":[
+        "air",
+        "void_air",
+        "cave_air",
+        "lava",
+        "water",
+        "bedrock",
+        "obsidian"
+    ]
+   }

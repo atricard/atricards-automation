@@ -1,28 +1,6 @@
 #Basic Gamerules
 gamerule sendCommandFeedback false
-#Building
-#scoreboard objectives add block_count dummy
-#scoreboard objectives add max_block_count dummy
-##Triggers and Money-Related
-#scoreboard objectives add build_egg trigger
-#scoreboard objectives add buy_plot trigger
-#scoreboard objectives add view_xp trigger
-#scoreboard objectives add info trigger
-#scoreboard objectives add summon_shop trigger
-##Stats
-#scoreboard objectives add drachma dummy
-#scoreboard objectives add builder_exp dummy
-#scoreboard objectives add builder_thres dummy
-#scoreboard objectives add builder_level dummy
-#scoreboard objectives setdisplay sidebar drachma
-#scoreboard objectives modify drachma displayname {"text":"Drachma","color":"gold","underlined":true}
-#Villagers
-scoreboard objectives add villager_fear dummy
-##Warps
-#scoreboard objectives add warp trigger
-#scoreboard objectives add warp_egg trigger
-#scoreboard objectives add warp_count dummy
-#Custom
+#
 scoreboard objectives add piston_data dummy
 scoreboard objectives add piston_kill dummy
 scoreboard objectives add match dummy
@@ -73,9 +51,14 @@ scoreboard objectives add hd_output_byproduct_count dummy
 #
 scoreboard objectives add dough_cook_time dummy
 scoreboard objectives add dough_o_death_cook_time dummy
+#
+scoreboard objectives add fl_direction dummy
+scoreboard objectives add fl_move_command dummy
+scoreboard objectives add fl_blocks_moved dummy
+scoreboard objectives add ship_scan dummy
+scoreboard objectives add ship_speed dummy
+scoreboard objectives add use_wand minecraft.used:carrot_on_a_stick
 #timers
-scoreboard players set $charcoal tt_fuel_time 1560
-scoreboard players set $coal tt_fuel_time 1560
 function aa:custom_block/conveyor/timer
 function aa:custom_block/extractor/timer
 function aa:custom_block/flopper/timer

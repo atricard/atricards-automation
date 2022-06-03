@@ -49,6 +49,8 @@ kill @e[type=item,nbt={Item:{tag:{gui:1b}}}]
 #Custom
 execute as @e[type=armor_stand,tag=firefly_cloud] at @s run function aa:custom_mob/firefly
 #floatstone
+execute as @a[predicate=aa:holding_wand,scores={use_wand=1..}] at @s run function aa:floatstone/wand/use
+execute as @e[type=area_effect_cloud,tag=wand_sprite] at @s run function aa:floatstone/wand/sprite
 execute as @e[type=enderman,tag=!floatstone_ore_spawned,predicate=aa:in_end] if predicate aa:floatstone_spawn at @s run function aa:floatstone/ore/replace
 tag @e[type=enderman,tag=!floatstone_ore_spawned,predicate=aa:in_end] add floatstone_ore_spawned
 execute as @e[type=glow_item_frame,tag=floatstone_ore] at @s run function aa:floatstone/ore/main
