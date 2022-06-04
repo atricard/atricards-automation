@@ -61,6 +61,7 @@ execute as @s[tag=chest_e] run setblock ~ ~ ~ chest[type=single,facing=east]
 #
 data modify block ~ ~ ~ Items set from entity @s data.Items
 #
+execute as @s[tag=crashed_block] run setblock ~ ~ ~ air destroy
 execute as @s[tag=crashed_block_bedrock] run setblock ~ ~ ~ bedrock destroy
 execute as @s[tag=crashed_block_obby] run setblock ~ ~ ~ obsidian destroy
 tag @s remove new_block_float
