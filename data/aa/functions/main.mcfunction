@@ -1,11 +1,12 @@
 #Machines
-execute as @e[type=item,nbt={Item:{id:"minecraft:axolotl_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Companion Cube","italic":false}'},CustomModelData:2800000,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Radius:0f,Age:1,Tags:["companion_cube","empires_machine","machine_init"]}}}}] at @s run function aa:custom_block/companion_cube/item
-execute as @e[type=item,nbt={Item:{id:"minecraft:axolotl_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Clamshell Block","italic":false}'},CustomModelData:2700000,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Radius:0f,Age:1,Tags:["clam","empires_machine","machine_init"]}}}}] at @s if block ~ ~-1 ~ chest[type=single] run function aa:custom_block/clam_chest/spawn
+execute as @e[type=item,nbt={Item:{id:"minecraft:axolotl_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Companion Cube","italic":false}'},CustomModelData:2800000,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Radius:0f,Age:1,Tags:["companion_cube","aa_block","aa_block_init"]}}}}] at @s run function aa:custom_block/companion_cube/item
+execute as @e[type=item,nbt={Item:{id:"minecraft:axolotl_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Clamshell Block","italic":false}'},CustomModelData:2700000,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Radius:0f,Age:1,Tags:["clam","aa_block","aa_block_init"]}}}}] at @s if block ~ ~-1 ~ chest[type=single] run function aa:custom_block/clam_chest/spawn
 execute as @e[type=item,nbt={Item:{id:"minecraft:copper_ingot",Count:1b}}] at @s if block ~ ~-0.5 ~ crafting_table if block ~ ~0.5 ~ piston_head positioned ~ ~-0.5 ~ run function aa:custom_block/tinker_table/spawn
-execute as @e[type=area_effect_cloud,tag=empires_machine,tag=machine_init] at @s run function aa:custom_block/place
+execute as @e[type=area_effect_cloud,tag=aa_block,tag=aa_block_init] at @s run function aa:custom_block/place
 execute as @e[type=marker,tag=fluid] at @s run function aa:custom_block/flopper/fluid/all_flow
 execute as @e[type=marker,tag=extract_fluid] at @s run function aa:custom_block/extractor/fluid/extract
 execute as @e[type=glow_item_frame,tag=custom_block] at @s run function aa:custom_block/main
+execute as @e[type=glow_item_frame,tag=ship_block] at @s run function aa:custom_block/motor/marker
 #crafting
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:structure_void",tag:{display:{Name:'{"text":"Dough","italic":false,"color":"white"}'},CustomModelData:2911001}}}] at @s run function aa:misc/dough/main
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:structure_void",tag:{display:{Name:'{"text":"Wheat Flour","italic":false,"color":"white"}'},CustomModelData:2911000}}}] at @s if block ~ ~ ~ water run function aa:misc/dough/wet

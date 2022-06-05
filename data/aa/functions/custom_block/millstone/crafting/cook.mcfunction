@@ -26,5 +26,8 @@ execute if score @s input_wood_dark_oak_count matches 1.. if score @s cook_time 
 #recipe 9
 execute if score @s input_wood_mangrove_count matches 1.. if score @s cook_time matches 13.. if score @s output_count matches 0 run function aa:custom_block/millstone/crafting/recipes/craft_item_recipe_mangrove
 execute if score @s input_wood_mangrove_count matches 1.. if score @s cook_time matches 13.. if score @s output_count matches 1..62 run function aa:custom_block/millstone/crafting/recipes/add_item_recipe_wood
+#recipe 10
+execute if score @s input_dragon_head_count matches 1.. if score @s cook_time matches 13.. if score @s output_count matches 0 run function aa:custom_block/millstone/crafting/recipes/craft_item_recipe_scale
+execute if score @s input_dragon_head_count matches 1.. if score @s cook_time matches 13.. if score @s output_count matches 1..56 run function aa:custom_block/millstone/crafting/recipes/add_item_recipe_scale
 #end
 execute if score @s cook_time matches 13.. run scoreboard players set @s cook_time 0

@@ -1,2 +1,2 @@
-execute positioned ~-8 ~-8 ~-8 run scoreboard players operation @e[type=marker,tag=ship_marker,dx=16,dy=16,dz=16] fl_direction = @s fl_direction
+execute positioned ~-8 ~-8 ~-8 run scoreboard players operation @e[type=glow_item_frame,tag=ship_block,dx=16,dy=16,dz=16] fl_direction = @s fl_direction
 execute if score @s fl_direction matches 1..4 run function aa:floatstone/ship/moving/teleport

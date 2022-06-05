@@ -1,1 +1,1 @@
-give @s axolotl_spawn_egg{display:{Name:'{"text":"Conveyor Block","italic":false}'},CustomModelData:2100001,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Radius:0f,Age:1,Tags:["conveyor","empires_machine","machine_init"]}} 1
+give @s axolotl_spawn_egg{display:{Name:'{"text":"Conveyor Block","italic":false}'},CustomModelData:2100001,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Radius:0f,Age:1,Tags:["conveyor","aa_block","aa_block_init"]}} 1

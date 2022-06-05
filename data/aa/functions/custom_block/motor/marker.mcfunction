@@ -1,2 +1,2 @@
-execute if block ~ ~ ~ #aa:valid_crash_blocks run kill @s
-execute unless block ~ ~ ~ #aa:valid_ship_blocks run kill @s
+execute as @s[tag=scale_block] unless block ~ ~ ~ deepslate_tiles run function aa:custom_block/piston/piston
+execute as @s[tag=motor_block] unless block ~ ~ ~ pink_concrete run function aa:custom_block/piston/piston

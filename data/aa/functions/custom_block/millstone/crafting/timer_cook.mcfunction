@@ -1,0 +1,10 @@
+execute if score @s output_count matches ..63 if score @s input_flesh_count matches 1.. run scoreboard players add @s cook_time 1
+execute if score @s output_count matches ..63 if score @s input_wheat_count matches 1.. run scoreboard players add @s cook_time 1
+execute if score @s output_count matches ..62 if score @s input_wood_oak_count matches 1.. run scoreboard players add @s cook_time 1
+execute if score @s output_count matches ..62 if score @s input_wood_birch_count matches 1.. run scoreboard players add @s cook_time 1
+execute if score @s output_count matches ..62 if score @s input_wood_acacia_count matches 1.. run scoreboard players add @s cook_time 1
+execute if score @s output_count matches ..62 if score @s input_wood_jungle_count matches 1.. run scoreboard players add @s cook_time 1
+execute if score @s output_count matches ..62 if score @s input_wood_spruce_count matches 1.. run scoreboard players add @s cook_time 1
+execute if score @s output_count matches ..62 if score @s input_wood_dark_oak_count matches 1.. run scoreboard players add @s cook_time 1
+execute if score @s output_count matches ..62 if score @s input_wood_mangrove_count matches 1.. run scoreboard players add @s cook_time 1
+execute if score @s output_count matches ..56 if score @s input_dragon_head_count matches 1.. run scoreboard players add @s cook_time 1

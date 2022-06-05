@@ -33,6 +33,7 @@ scoreboard objectives add output_count dummy
 #
 scoreboard objectives add input_flesh_count dummy
 scoreboard objectives add input_wheat_count dummy
+scoreboard objectives add input_dragon_head_count dummy
 scoreboard objectives add input_wood_oak_count dummy
 scoreboard objectives add input_wood_birch_count dummy
 scoreboard objectives add input_wood_acacia_count dummy

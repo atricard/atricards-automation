@@ -1,0 +1,2 @@
+execute store result block ~ ~ ~ Items[{Slot:1b}].Count byte 0.99 run data get block ~ ~ ~ Items[{Slot:1b}].Count
+item replace block ~ ~ ~ container.7 with axolotl_spawn_egg{display:{Name:'{"text":"Dragon Scale Block","italic":false,"color":"yellow"}'},CustomModelData:3111004,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Radius:0f,Age:1,Tags:["scale","aa_block","aa_block_init"]}} 8

@@ -3,7 +3,7 @@
 #If player nearby show fear hud
 #execute if entity @a[distance=..7] run function aa:villager/stats/hud
 #Gift giving
-execute as @s[tag=!gave_gift,scores={villager_fear=0..1}] at @e[type=marker,tag=empires_machine,tag=storage,distance=..8,limit=1,sort=nearest] run function aa:villager/gift/main
+execute as @s[tag=!gave_gift,scores={villager_fear=0..1}] at @e[type=marker,tag=aa_block,tag=storage,distance=..8,limit=1,sort=nearest] run function aa:villager/gift/main
 #Sleep/Removing Fear mechanic
 #execute if entity @s[predicate=aa:in_bed] run function aa:villager/stats/in_bed
 #Dark/Fear mechanic

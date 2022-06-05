@@ -7,5 +7,7 @@ execute as @s[tag=sprinkler_block] run function aa:custom_block/sprinkler/drop
 execute as @s[tag=extractor_block] run function aa:custom_block/extractor/drop
 execute as @s[tag=tank_block] run function aa:custom_block/tank/drop
 execute as @s[tag=spout_block] run function aa:custom_block/spout/drop
+execute as @s[tag=motor_block] run function aa:custom_block/motor/drop
 execute as @s[tag=controller_block] run function aa:custom_block/controller/drop
+execute as @s[tag=scale_block] run function aa:custom_block/scale_block/drop
 kill @s

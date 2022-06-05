@@ -1,0 +1,2 @@
+execute store result score @s output_count run data get block ~ ~ ~ Items[{Slot:5b,id:"minecraft:honey_bottle"}].Count 1
+execute store result score @s output_byproduct_count run data get block ~ ~ ~ Items[{Slot:8b,id:"minecraft:slime_ball",tag:{display:{Name:'{"text":"Bee Slime","italic":false}'},CustomModelData:3110001}}].Count 1

@@ -1,1 +1,1 @@
-give @s axolotl_spawn_egg{display:{Name:'{"text":"Minesweeper Crate","italic":false}'},CustomModelData:2990000,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Radius:0f,Age:1,Tags:["game_board_place","empires_machine","machine_init"]}}
+give @s axolotl_spawn_egg{display:{Name:'{"text":"Minesweeper Crate","italic":false}'},CustomModelData:2990000,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Radius:0f,Age:1,Tags:["game_board_place","aa_block","aa_block_init"]}}

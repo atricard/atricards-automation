@@ -1,0 +1,1 @@
+execute store result score @s input_dragon_head_count run data get block ~ ~ ~ Items[{id:"minecraft:dragon_head",Slot:1b}].Count 1
