@@ -39,5 +39,8 @@ execute if score @s floatstone_count matches 10.. if score @s redstone_count mat
 execute if score @s floatstone_count matches 10.. if score @s redstone_count matches 1.. if score @s recipe_id matches 11 if score @s cook_time matches 13.. if score @s output_count matches 1..63 run function aa:custom_block/tinker_table/crafting/recipes/add_item_recipe_11
 #recipe 12
 execute if score @s floatstone_count matches 3.. if score @s redstone_count matches 1.. if score @s recipe_id matches 12 if score @s cook_time matches 13.. if score @s output_count matches 0 run function aa:custom_block/tinker_table/crafting/recipes/craft_item_recipe_12
+#recipe 13
+execute if score @s floatstone_count matches 9.. if score @s redstone_count matches 1.. if score @s recipe_id matches 13 if score @s cook_time matches 13.. if score @s output_count matches 0 run function aa:custom_block/tinker_table/crafting/recipes/craft_item_recipe_13
+execute if score @s floatstone_count matches 9.. if score @s redstone_count matches 1.. if score @s recipe_id matches 13 if score @s cook_time matches 13.. if score @s output_count matches 1..63 run function aa:custom_block/tinker_table/crafting/recipes/add_item_recipe_13
 #end
 execute if score @s cook_time matches 13.. run scoreboard players set @s cook_time 0

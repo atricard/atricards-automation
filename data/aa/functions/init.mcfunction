@@ -47,6 +47,12 @@ scoreboard objectives add input_honeycomb_count dummy
 scoreboard objectives add input_bottle_count dummy
 scoreboard objectives add output_byproduct_count dummy
 #
+scoreboard objectives add input_dragon_scale_count dummy
+scoreboard objectives add input_glass_count dummy
+scoreboard objectives add input_glowstone_count dummy
+scoreboard objectives add input_warped_planks_count dummy
+scoreboard objectives add input_chest_count dummy
+#
 scoreboard objectives add dough_cook_time dummy
 scoreboard objectives add dough_o_death_cook_time dummy
 #
@@ -63,4 +69,5 @@ function aa:custom_block/flopper/timer
 function aa:custom_block/tinker_table/crafting/timer
 function aa:custom_block/millstone/crafting/timer
 function aa:custom_block/honey_dripper/crafting/timer
+function aa:custom_block/dragon_table/crafting/timer
 function aa:main_second

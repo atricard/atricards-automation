@@ -1,0 +1,1 @@
+execute store result score @s output_count run data get block ~ ~ ~ Items[{Slot:5b,id:"minecraft:axolotl_spawn_egg"}].Count 1

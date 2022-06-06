@@ -10,4 +10,8 @@ execute as @s[tag=spout_block] run function aa:custom_block/spout/drop
 execute as @s[tag=motor_block] run function aa:custom_block/motor/drop
 execute as @s[tag=controller_block] run function aa:custom_block/controller/drop
 execute as @s[tag=scale_block] run function aa:custom_block/scale_block/drop
+execute as @s[tag=dragon_crate_block] run function aa:custom_block/draconian_crate/drop
+execute as @s[tag=dragon_glass_block] run function aa:custom_block/draconian_glass/drop
+execute as @s[tag=dragon_lamp_block] run function aa:custom_block/draconian_lamp/drop
+execute as @s[tag=dragon_planks_block] run function aa:custom_block/draconian_planks/drop
 kill @s

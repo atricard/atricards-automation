@@ -1,0 +1,2 @@
+execute as @e[type=glow_item_frame,tag=dragon_table_block] if score @s output_count matches ..63 if score @s input_dragon_scale_count matches 1.. run scoreboard players add @s cook_time 1
+schedule function aa:custom_block/dragon_table/crafting/timer 1t replace

@@ -10,3 +10,4 @@ execute if score @s output_count matches ..63 if score @s recipe_id matches 9 if
 execute if score @s output_count matches ..63 if score @s recipe_id matches 10 if score @s redstone_count matches 1.. if score @s floatstone_count matches 20.. run scoreboard players add @s cook_time 1
 execute if score @s output_count matches ..63 if score @s recipe_id matches 11 if score @s redstone_count matches 1.. if score @s floatstone_count matches 10.. run scoreboard players add @s cook_time 1
 execute if score @s output_count matches ..0 if score @s recipe_id matches 12 if score @s redstone_count matches 1.. if score @s floatstone_count matches 3.. run scoreboard players add @s cook_time 1
+execute if score @s output_count matches ..63 if score @s recipe_id matches 13 if score @s redstone_count matches 1.. if score @s floatstone_count matches 9.. run scoreboard players add @s cook_time 1
