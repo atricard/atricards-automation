@@ -52,6 +52,9 @@ scoreboard objectives add input_glass_count dummy
 scoreboard objectives add input_glowstone_count dummy
 scoreboard objectives add input_warped_planks_count dummy
 scoreboard objectives add input_chest_count dummy
+scoreboard objectives add input_crafting_table_count dummy
+scoreboard objectives add input_furnace_count dummy
+scoreboard objectives add input_respawn_anchor_count dummy
 #
 scoreboard objectives add dough_cook_time dummy
 scoreboard objectives add dough_o_death_cook_time dummy

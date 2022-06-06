@@ -17,3 +17,4 @@ execute as @s[tag=scale_block] run function aa:custom_block/scale_block/main
 execute as @s[tag=motor_block] run function aa:custom_block/motor/main
 execute as @s[tag=controller_block] run function aa:custom_block/controller/main
 execute as @s[tag=dragon_table_block] run function aa:custom_block/dragon_table/main
+execute as @s[tag=dragon_furnace_block] run function aa:custom_block/draconian_furnace/main

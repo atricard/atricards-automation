@@ -3,4 +3,7 @@ execute store result score @s input_glass_count run data get block ~ ~ ~ Items[{
 execute store result score @s input_glowstone_count run data get block ~ ~ ~ Items[{Slot:6b,id:"minecraft:glowstone"}].Count 1
 execute store result score @s input_chest_count run data get block ~ ~ ~ Items[{Slot:6b,id:"minecraft:chest"}].Count 1
 execute store result score @s input_warped_planks_count run data get block ~ ~ ~ Items[{Slot:6b,id:"minecraft:warped_planks"}].Count 1
+execute store result score @s input_crafting_table_count run data get block ~ ~ ~ Items[{Slot:6b,id:"minecraft:crafting_table"}].Count 1
+execute store result score @s input_furnace_count run data get block ~ ~ ~ Items[{Slot:6b,id:"minecraft:furnace"}].Count 1
+execute store result score @s input_respawn_anchor_count run data get block ~ ~ ~ Items[{Slot:6b,id:"minecraft:respawn_anchor"}].Count 1
 execute store result score @s input_count run data get block ~ ~ ~ Items[{Slot:6b}].Count 1

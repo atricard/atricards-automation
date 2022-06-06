@@ -1,0 +1,3 @@
+summon item ~ ~ ~ {Motion:[0.0,0.15,0.0],Item:{id:"axolotl_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Draconian Crafting Table","italic":false,"color":"yellow"}'},CustomModelData:3111011,EntityTag:{id:"minecraft:area_effect_cloud",Duration:1,Radius:0f,Age:1,Tags:["dragon_crafting_table","aa_block","aa_block_init"]}}}}
+kill @e[type=item,nbt={Item:{id:"minecraft:crafting_table"}},distance=..1.5]
+kill @s

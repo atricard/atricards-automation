@@ -23,3 +23,5 @@ execute as @s[tag=dragon_crate] run function aa:custom_block/draconian_crate/pla
 execute as @s[tag=dragon_glass] run function aa:custom_block/draconian_glass/place
 execute as @s[tag=dragon_lamp] run function aa:custom_block/draconian_lamp/place
 execute as @s[tag=dragon_planks] run function aa:custom_block/draconian_planks/place
+execute as @s[tag=dragon_crafting_table] run function aa:custom_block/draconian_crafting_table/place
+execute as @s[tag=dragon_furnace] run function aa:custom_block/draconian_furnace/place
