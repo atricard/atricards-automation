@@ -6,7 +6,7 @@ execute if block ~ ~ ~ obsidian run tag @s add obsidian_crash
 execute as @s[tag=generic_crash,tag=!crash_immune] run setblock ~ ~ ~ air destroy
 #
 execute as @s[tag=scale_block] run setblock ~ ~ ~ deepslate_tiles replace
-execute as @s[tag=dragon_crate_block] run setblock ~ ~ ~ barrel{CustomName:'{"text":"Draconian Barrel","italic":false}'} replace
+execute as @s[tag=dragon_crate_block] run setblock ~ ~ ~ barrel{CustomName:'{"text":"Draconian Crate","italic":false}'} replace
 execute as @s[tag=dragon_crate_block] run data modify block ~ ~ ~ Items set from entity @s Item.tag.Items
 execute as @s[tag=dragon_crate_block] run data remove entity @s Item.tag.Items
 execute as @s[tag=dragon_glass_block] run setblock ~ ~ ~ glass replace
