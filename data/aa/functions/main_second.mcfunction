@@ -11,7 +11,6 @@ execute as @e[type=strider,tag=!crop_strider,predicate=aa:in_overworld] at @s ru
 execute as @e[type=strider,tag=!built_nest,predicate=aa:in_nether] run function aa:custom_mob/strider/nether_tag
 function aa:custom_mob/strider/main
 execute as @e[type=strider,tag=crop_strider,tag=!has_crop] at @s run function aa:custom_mob/strider/harvest/main
-execute as @e[type=zombified_piglin,tag=crop_finder] at @s run function aa:custom_mob/strider/crop_holder_item
 execute as @e[type=vex,tag=crop_scan] run function aa:custom_mob/strider/scan/main
 execute as @e[type=vex,tag=nest_scan] run function aa:custom_mob/strider/scan/main
 #clam
