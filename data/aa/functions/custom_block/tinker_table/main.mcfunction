@@ -7,6 +7,7 @@ scoreboard players set @s[tag=!recipe_reset] cook_time 0
 scoreboard players set @s[tag=!recipe_reset] fuel_time 0
 tag @s[tag=!recipe_reset] add recipe_reset
 #crafting
+function aa:custom_block/tinker_table/spit
 function aa:custom_block/tinker_table/crafting/selection
 function aa:custom_block/tinker_table/crafting/metal
 function aa:custom_block/tinker_table/crafting/count_input
@@ -16,6 +17,5 @@ function aa:custom_block/tinker_table/crafting/cook
 #function aa:custom_block/tinker_table/crafting/calc_fuel_progress
 #function aa:custom_block/tinker_table/crafting/flame
 function aa:custom_block/tinker_table/crafting/arrow
-function aa:custom_block/tinker_table/spit
 #basic
 execute unless block ~ ~ ~ barrel[facing=down] run function aa:custom_block/tinker_table/drop
