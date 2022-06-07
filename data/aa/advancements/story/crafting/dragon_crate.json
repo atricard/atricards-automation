@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:axolotl_spawn_egg",
+      "nbt": "{CustomModelData:3111007}"
+    },
+    "title": "Movable Chests",
+    "description": "Infuse a Chest with Dragon Scales",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "aa:story/crafting/dragon_table",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:axolotl_spawn_egg"
+            ],
+            "nbt": "{CustomModelData:3111007,display:{Name:'{\"text\":\"Draconian Crate\",\"italic\":false,\"color\":\"yellow\"}'}}"
+          }
+        ]
+      }
+    }
+  }
+}
