@@ -1,7 +1,7 @@
-execute unless block ~ ~1 ~ air run effect give @s instant_damage 1 10 true
-execute if block ~ ~1 ~ void_air run kill @s
+execute unless block ~ ~1 ~ air run effect give @s instant_damage 1 1 true
 data merge entity @s {DrownedConversionTime:-1}
 execute positioned ~ ~-1 ~ unless entity @e[type=strider,tag=crop_strider,distance=..1] run tp @s ~ ~-500 ~
+execute positioned ~ ~-1 ~ unless entity @e[type=strider,tag=crop_strider,distance=..1] run kill @s
 #crops
 #wheat
 execute if entity @e[type=strider,tag=crop_strider,sort=nearest,limit=1,tag=has_crop_wheat,dx=0] run item replace entity @s armor.head with minecraft:structure_void{CustomModelData:2200000}
