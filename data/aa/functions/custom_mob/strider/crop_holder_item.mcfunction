@@ -1,4 +1,6 @@
-execute unless block ~ ~1 ~ air run effect give @s instant_damage 999 10 true
+execute unless block ~ ~1 ~ air run effect give @s instant_damage 1 10 true
+execute if block ~ ~1 ~ void_air run kill @s
+data merge entity @s {DrownedConversionTime:-1}
 execute positioned ~ ~-1 ~ unless entity @e[type=strider,tag=crop_strider,distance=..1] run tp @s ~ ~-500 ~
 #crops
 #wheat

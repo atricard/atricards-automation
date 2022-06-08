@@ -1,6 +1,5 @@
 #Basic Gamerules
 gamerule sendCommandFeedback false
-gamerule naturalRegeneration false
 scoreboard objectives add eat_cake minecraft.custom:minecraft.eat_cake_slice
 scoreboard objectives add temp dummy
 #
