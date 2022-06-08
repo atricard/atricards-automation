@@ -1,5 +1,5 @@
-execute if block ~ ~ ~ cave_vines_plant[berries=true] run setblock ~ ~ ~ cave_vines_plant[berries=true]
-execute if block ~ ~ ~ cave_vines[berries=true] run setblock ~ ~ ~ cave_vines[berries=true]
+execute if block ~ ~ ~ cave_vines_plant[berries=false] run setblock ~ ~ ~ cave_vines_plant[berries=true]
+execute if block ~ ~ ~ cave_vines[berries=false] run setblock ~ ~ ~ cave_vines[berries=true]
 #
 execute if block ~ ~ ~ sweet_berry_bush[age=2] run setblock ~ ~ ~ sweet_berry_bush[age=3]
 execute if block ~ ~ ~ sweet_berry_bush[age=1] run setblock ~ ~ ~ sweet_berry_bush[age=2]
