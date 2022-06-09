@@ -1,0 +1,3 @@
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:bucket",Count:1b}},distance=..0.6] if score @s stored_water matches 1.. run function aa:custom_block/tank/spout/bucket_water
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:bucket",Count:1b}},distance=..0.6] if score @s stored_lava matches 1.. run function aa:custom_block/tank/spout/bucket_lava
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:structure_void",Count:1b,tag:{display:{Name:'{"text":"Wheat Flour","italic":false,"color":"white"}'},CustomModelData:2911000}}},distance=..0.6] if score @s stored_water matches 1.. run function aa:custom_block/tank/spout/dough

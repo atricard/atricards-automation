@@ -10,7 +10,6 @@ execute as @s[tag=flopper] run function aa:custom_block/flopper/place
 execute as @s[tag=sprinkler] run function aa:custom_block/sprinkler/place
 execute as @s[tag=extractor] run function aa:custom_block/extractor/place
 execute as @s[tag=tank] run function aa:custom_block/tank/place
-execute as @s[tag=spout] run function aa:custom_block/spout/place
 execute as @s[tag=millstone] run function aa:custom_block/millstone/place
 execute as @s[tag=dripper] run function aa:custom_block/honey_dripper/place
 execute as @s[tag=storage] run function aa:custom_block/storage/place

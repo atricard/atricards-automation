@@ -12,6 +12,8 @@ execute if score @s stored_lava matches 1.. positioned ~ ~-1 ~ as @e[type=glow_i
 #burst
 execute if score @s stored_water matches 9.. positioned ~ ~1 ~ unless entity @e[type=glow_item_frame,tag=tank_block,distance=..0.5] run function aa:custom_block/tank/store/burst_water
 execute if score @s stored_lava matches 9.. positioned ~ ~1 ~ unless entity @e[type=glow_item_frame,tag=tank_block,distance=..0.5] run function aa:custom_block/tank/store/burst_lava
+#dripstone
+execute positioned ~ ~-2.5 ~ if block ~ ~1.5 ~ pointed_dripstone[thickness=tip] run function aa:custom_block/tank/spout/main
 #visual water
 execute if score @s stored_water matches 0 if score @s stored_lava matches 0 run data merge entity @s {Item:{id:"minecraft:structure_void",Count:1b,tag:{CustomModelData:2400000}}}
 execute if score @s stored_water matches 1 run data merge entity @s {Item:{id:"minecraft:structure_void",Count:1b,tag:{CustomModelData:2400008}}}
