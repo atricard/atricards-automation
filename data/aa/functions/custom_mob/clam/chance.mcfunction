@@ -1,2 +1,2 @@
-execute if predicate aa:clam_spawn_chance unless entity @e[type=glow_item_frame,tag=clam_block,tag=!dead,distance=..50,limit=5] run summon area_effect_cloud ~ ~ ~ {Particle:"current_down",Radius:1f,Duration:30,Tags:["sink_clam"]}
+execute if predicate aa:clam_spawn_chance unless entity @e[type=glow_item_frame,tag=clam_block,tag=!dead,distance=..50,limit=5] run summon area_effect_cloud ~ ~ ~ {Particle:"current_down",Radius:1f,Duration:600,Tags:["sink_clam"]}
 tag @s add spawned_clam

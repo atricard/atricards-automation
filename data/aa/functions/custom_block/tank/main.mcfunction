@@ -6,7 +6,7 @@ tag @s[tag=tank_set] remove tank_set
 execute if score @s stored_water matches 1.. if score @s stored_lava matches 1.. run function aa:custom_block/tank/store/harden
 execute if score @s stored_water matches 9.. positioned ~ ~1 ~ if entity @e[type=glow_item_frame,tag=tank_block,distance=..0.5] run function aa:custom_block/tank/store/fill_water
 execute if score @s stored_lava matches 9.. positioned ~ ~1 ~ if entity @e[type=glow_item_frame,tag=tank_block,distance=..0.5] run function aa:custom_block/tank/store/fill_lava
-#
+#sink
 execute if score @s stored_water matches 1.. positioned ~ ~-1 ~ as @e[type=glow_item_frame,tag=tank_block,distance=..0.5,sort=nearest,limit=1] if score @s stored_water matches ..7 run function aa:custom_block/tank/store/sink_water
 execute if score @s stored_lava matches 1.. positioned ~ ~-1 ~ as @e[type=glow_item_frame,tag=tank_block,distance=..0.5,sort=nearest,limit=1] if score @s stored_lava matches ..7 run function aa:custom_block/tank/store/sink_lava
 #burst
