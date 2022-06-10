@@ -1,4 +1,4 @@
-execute if block ~ ~ ~ copper_block run setblock ~ ~ ~ waxed_copper_block
+execute if block ~ ~ ~ copper_block run function aa:custom_block/conveyor/rotate/karate_kid
 #conveying
 execute positioned ~ ~1 ~ as @e[type=item,dx=0,tag=!on_conveyor] run data merge entity @s {Motion:[0.0,0.0,0.0]}
 execute positioned ~ ~1 ~ as @e[type=item,dx=0,tag=!on_conveyor] align xyz run tp ~0.5 ~ ~0.5
