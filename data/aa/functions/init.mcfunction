@@ -17,6 +17,7 @@ scoreboard objectives add spray_scan dummy
 scoreboard objectives add stored_water dummy
 scoreboard objectives add stored_lava dummy
 scoreboard objectives add rot_scan dummy
+scoreboard objectives add break_time dummy
 scoreboard objectives add rot_time dummy
 scoreboard objectives add clam_time dummy
 scoreboard objectives add key_check dummy
@@ -33,6 +34,7 @@ scoreboard objectives add output_count dummy
 scoreboard objectives add input_flesh_count dummy
 scoreboard objectives add input_wheat_count dummy
 scoreboard objectives add input_dragon_head_count dummy
+scoreboard objectives add input_diamond_count dummy
 scoreboard objectives add input_wood_oak_count dummy
 scoreboard objectives add input_wood_birch_count dummy
 scoreboard objectives add input_wood_acacia_count dummy
@@ -72,4 +74,5 @@ function aa:custom_block/tinker_table/crafting/timer
 function aa:custom_block/millstone/crafting/timer
 function aa:custom_block/honey_dripper/crafting/timer
 function aa:custom_block/dragon_table/crafting/timer
+function aa:custom_block/diamond_saw/destroy/timer
 function aa:main_second

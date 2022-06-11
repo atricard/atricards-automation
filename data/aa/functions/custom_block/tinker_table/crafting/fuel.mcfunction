@@ -1,1 +1,2 @@
 execute store result score @s redstone_count run data get block ~ ~ ~ Items[{id:"minecraft:redstone",Slot:18b}].Count 1
+execute store result score @s input_diamond_count run data get block ~ ~ ~ Items[{id:"minecraft:structure_void",Slot:18b,tag:{display:{Name:'{"text":"Diamond Dust","italic":false,"color":"white"}'},CustomModelData:3112001}}].Count 1

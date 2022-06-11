@@ -1,5 +1,5 @@
 #execute if score @s fuel_time matches 0 run scoreboard players set @s cook_time 0tinker_table/crafting/
-execute if score @s redstone_count matches 0 run scoreboard players set @s cook_time 0
+execute if score @s redstone_count matches 0 if score @s input_diamond_count matches 0 run scoreboard players set @s cook_time 0
 execute if score @s input_count matches 0 run scoreboard players set @s cook_time 0
 execute if score @s recipe_id matches 0 run scoreboard players set @s cook_time 0
 
@@ -23,8 +23,8 @@ execute if score @s copper_count matches 7.. if score @s redstone_count matches 
 execute if score @s copper_count matches 8.. if score @s redstone_count matches 1.. if score @s recipe_id matches 6 if score @s cook_time matches 13.. if score @s output_count matches 0 run function aa:custom_block/tinker_table/crafting/recipes/craft_item_recipe_6
 execute if score @s copper_count matches 8.. if score @s redstone_count matches 1.. if score @s recipe_id matches 6 if score @s cook_time matches 13.. if score @s output_count matches 1..63 run function aa:custom_block/tinker_table/crafting/recipes/add_item_recipe_6
 #recipe 7
-execute if score @s copper_count matches 6.. if score @s redstone_count matches 1.. if score @s recipe_id matches 7 if score @s cook_time matches 13.. if score @s output_count matches 0 run function aa:custom_block/tinker_table/crafting/recipes/craft_item_recipe_7
-execute if score @s copper_count matches 6.. if score @s redstone_count matches 1.. if score @s recipe_id matches 7 if score @s cook_time matches 13.. if score @s output_count matches 1..63 run function aa:custom_block/tinker_table/crafting/recipes/add_item_recipe_7
+execute if score @s copper_count matches 6.. if score @s input_diamond_count matches 1.. if score @s recipe_id matches 7 if score @s cook_time matches 13.. if score @s output_count matches 0 run function aa:custom_block/tinker_table/crafting/recipes/craft_item_recipe_7
+execute if score @s copper_count matches 6.. if score @s input_diamond_count matches 1.. if score @s recipe_id matches 7 if score @s cook_time matches 13.. if score @s output_count matches 1..63 run function aa:custom_block/tinker_table/crafting/recipes/add_item_recipe_7
 #recipe 8
 execute if score @s copper_count matches 8.. if score @s redstone_count matches 1.. if score @s recipe_id matches 8 if score @s cook_time matches 13.. if score @s output_count matches 0 run function aa:custom_block/tinker_table/crafting/recipes/craft_item_recipe_8
 execute if score @s copper_count matches 8.. if score @s redstone_count matches 1.. if score @s recipe_id matches 8 if score @s cook_time matches 13.. if score @s output_count matches 1..63 run function aa:custom_block/tinker_table/crafting/recipes/add_item_recipe_8

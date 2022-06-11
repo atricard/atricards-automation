@@ -1,1 +1,1 @@
-execute store result score @s output_count run data get block ~ ~ ~ Items[{Slot:0b}].Count 1
+execute store result score @s input_count run data get block ~ ~ ~ Items[{Slot:0b}].Count 1

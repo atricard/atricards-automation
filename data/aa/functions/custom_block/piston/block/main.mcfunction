@@ -16,4 +16,5 @@ execute as @s[tag=dragon_lamp_block] run function aa:custom_block/draconian_lamp
 execute as @s[tag=dragon_planks_block] run function aa:custom_block/draconian_planks/drop
 execute as @s[tag=dragon_crafting_table_block] run function aa:custom_block/draconian_crafting_table/drop
 execute as @s[tag=dragon_furnace_block] run function aa:custom_block/draconian_furnace/drop
+execute as @s[tag=saw_block] run function aa:custom_block/diamond_saw/drop
 kill @s
