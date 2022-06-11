@@ -11,5 +11,3 @@ execute if score @s break_time matches 6 run data merge entity @s {Item:{id:"min
 execute if score @s break_time matches 7 run data merge entity @s {Item:{id:"minecraft:structure_void",Count:1b,tag:{CustomModelData:1007}}}
 execute if score @s break_time matches 8 run data merge entity @s {Item:{id:"minecraft:structure_void",Count:1b,tag:{CustomModelData:1008}}}
 execute if score @s break_time matches 9 run data merge entity @s {Item:{id:"minecraft:structure_void",Count:1b,tag:{CustomModelData:1009}}}
-#
-execute unless block ~ ~ ~ #aa:saw_mineable run kill @s
