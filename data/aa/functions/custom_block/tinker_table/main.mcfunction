@@ -18,4 +18,5 @@ function aa:custom_block/tinker_table/crafting/cook
 #function aa:custom_block/tinker_table/crafting/flame
 function aa:custom_block/tinker_table/crafting/arrow
 #basic
+execute positioned ~ ~-1 ~ if entity @e[type=glow_item_frame,tag=tube_block,tag=tube_down,dx=0] if data block ~ ~1 ~ Items[{Slot:17b}] run function aa:custom_block/tinker_table/remove_output
 execute unless block ~ ~ ~ barrel[facing=down] run function aa:custom_block/tinker_table/drop

@@ -11,4 +11,5 @@ function aa:custom_block/millstone/crafting/count_output
 function aa:custom_block/millstone/crafting/cook
 function aa:custom_block/millstone/crafting/arrow
 #basic
+execute positioned ~ ~-1 ~ if entity @e[type=glow_item_frame,tag=tube_block,tag=tube_down,dx=0] if data block ~ ~1 ~ Items[{Slot:7b}] run function aa:custom_block/millstone/remove_output
 execute unless block ~ ~ ~ dropper[facing=up] run function aa:custom_block/millstone/drop

@@ -11,4 +11,6 @@ function aa:custom_block/honey_dripper/crafting/count_output
 function aa:custom_block/honey_dripper/crafting/cook
 function aa:custom_block/honey_dripper/crafting/arrow
 #basic
+execute positioned ~ ~-1 ~ if entity @e[type=glow_item_frame,tag=tube_block,tag=tube_down,dx=0] if data block ~ ~1 ~ Items[{Slot:5b}] run function aa:custom_block/honey_dripper/remove_output
+execute positioned ~ ~-1 ~ if entity @e[type=glow_item_frame,tag=tube_block,tag=tube_down,dx=0] if data block ~ ~1 ~ Items[{Slot:8b}] run function aa:custom_block/honey_dripper/remove_byproduct_output
 execute unless block ~ ~ ~ dropper[facing=up] run function aa:custom_block/honey_dripper/drop
