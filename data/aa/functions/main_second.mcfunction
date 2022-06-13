@@ -17,4 +17,4 @@ execute as @e[type=vex,tag=nest_scan] run function aa:custom_mob/strider/scan/ma
 execute as @e[type=cod,tag=!spawned_clam] at @s run function aa:custom_mob/clam/chance
 execute as @e[type=area_effect_cloud,tag=sink_clam] at @s run function aa:custom_mob/clam/sink
 #misc
-schedule function aa:main_second 1s
+schedule function aa:main_second 1s replace
